@@ -37,7 +37,7 @@
         <translation>收款位址</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Cashera addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>這是你用來收款的瑞迪幣位址. 建議每次交易都使用新的收款位址.</translation>
     </message>
     <message>
@@ -90,7 +90,7 @@
         <translation>節點</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
+        <source>Request payments (generates QR codes and Cashera: URIs)</source>
         <translation>要求付款 (產生 QR 碼及瑞迪幣 URI)</translation>
     </message>
     <message>
@@ -122,7 +122,7 @@
         <translation>開啟URI (&amp;U)</translation>
     </message>
     <message>
-        <source>Open a reddcoin: URI or payment request</source>
+        <source>Open a Cashera: URI or payment request</source>
         <translation>開啟瑞迪幣 URI 或付款請求</translation>
     </message>
     <message>
@@ -150,7 +150,7 @@
         <translation>staking暫停</translation>
     </message>
     <message>
-        <source>Reddcoin</source>
+        <source>Cashera</source>
         <translation>瑞迪幣</translation>
     </message>
     <message>
@@ -534,7 +534,7 @@
         <translation>使用作手稿語言確認的線程數目 (&amp;V)</translation>
     </message>
     <message>
-        <source>Connect to the Reddcoin network through a SOCKS proxy.</source>
+        <source>Connect to the Cashera network through a SOCKS proxy.</source>
         <translation>利用 SOCKS 代理連接到瑞迪幣的網絡</translation>
     </message>
     <message>
@@ -612,7 +612,7 @@
         <translation>正處理 URI</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Reddcoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Cashera address or malformed URI parameters.</source>
         <translation>未能解析 URI，這可能是因為瑞迪幣位址錯誤或 URI 參數出現問題。</translation>
     </message>
     <message>
@@ -784,7 +784,7 @@
         <translation>重用已使用過的收款位址 (不建議) (&amp;R)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reddcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Cashera network.</source>
         <translation>附加到付款請求的選擇性訊息，當請求被打開時會顯示出來。注意：這個訊息不會隨交易被加入到瑞迪幣網絡傳送。</translation>
     </message>
     <message>
@@ -1092,7 +1092,7 @@
         <translation>訊息：</translation>
     </message>
     <message>
-        <source>A message that was attached to the reddcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reddcoin network.</source>
+        <source>A message that was attached to the Cashera: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Cashera network.</source>
         <translation>附加到瑞迪幣URI的訊息，這個訊息會隨交易記錄一同儲存以供你將來參考用。注意：這個訊息不會隨交易被加入到瑞迪幣網絡傳送。</translation>
     </message>
     <message>

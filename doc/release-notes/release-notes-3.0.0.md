@@ -1,27 +1,27 @@
-Reddcoin Core version 3.0.0 is now available from:
+Cashera Core version 3.0.0 is now available from:
 
-  [https://github.com/reddcoin-project/reddcoin/releases](https://github.com/reddcoin-project/reddcoin/releases)
+  [https://github.com/Cashera-project/Cashera/releases](https://github.com/Cashera-project/Cashera/releases)
 
 This is a new major version release, bringing both new features and
 bug fixes.
 
 Please report bugs using the issue tracker at github:
 
-  https://github.com/reddcoin-project/reddcoin/issues
+  https://github.com/Cashera-project/Cashera/issues
 
 How to Upgrade
 --------------
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), uninstall all
-earlier versions of Reddcoin, then run the installer (on Windows) or just copy
-over /Applications/Reddcoin-Qt (on Mac) or reddcoind/reddcoin-qt (on Linux).
+earlier versions of Cashera, then run the installer (on Windows) or just copy
+over /Applications/Cashera-Qt (on Mac) or Casherad/Cashera-qt (on Linux).
 
 If you are upgrading from version 1.4.1 or earlier, the first time you run
 3.0.0 your blockchain files may be re-indexed, which will take anywhere from 
 30 minutes to several hours, depending on the speed of your machine.
 
-On Windows, do not forget to uninstall all earlier versions of the Reddcoin
+On Windows, do not forget to uninstall all earlier versions of the Cashera
 client first, especially if you are switching to the 64-bit version.
 
 Windows 64-bit installer
@@ -56,11 +56,11 @@ Also, the first time you run a 1.4.x release on a 3.0.0 wallet it will rescan
 the blockchain for missing spent coins, which will take a long time (tens
 of minutes on a typical machine).
 
-Rebranding to Reddcoin Core
+Rebranding to Cashera Core
 ---------------------------
 
-To reduce confusion between Reddcoin-the-network and Reddcoin-the-software we
-have renamed the reference client to Reddcoin Core.
+To reduce confusion between Cashera-the-network and Cashera-the-software we
+have renamed the reference client to Cashera Core.
 
 
 Autotools build system
@@ -69,8 +69,8 @@ Autotools build system
 For 3.0.0 we continue to use an autotools-based build system instead of individual
 (q)makefiles.
 
-Using the standard "./autogen.sh; ./configure; make" to build Reddcoin-Qt and
-reddcoind makes it easier for experienced open source developers to contribute 
+Using the standard "./autogen.sh; ./configure; make" to build Cashera-Qt and
+Casherad makes it easier for experienced open source developers to contribute 
 to the project.
 
 Be sure to check doc/build-*.md for your platform before building from source.
@@ -80,7 +80,7 @@ Blockchain Download
 
 Blockchain data for both testnet and mainnet along with instructions can be downloaded from github.
 
-[https://github.com/reddcoin-project/bootstrap_files](https://github.com/reddcoin-project/bootstrap_files)
+[https://github.com/Cashera-project/bootstrap_files](https://github.com/Cashera-project/bootstrap_files)
 
 3.0.0 Release notes
 =======================

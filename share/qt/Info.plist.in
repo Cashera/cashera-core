@@ -11,13 +11,13 @@
   </array>
 
   <key>CFBundleIconFile</key>
-  <string>reddcoin.icns</string>
+  <string>Cashera.icns</string>
 
   <key>CFBundlePackageType</key>
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2014-@COPYRIGHT_YEAR@ The Reddcoin Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2014-@COPYRIGHT_YEAR@ The Cashera Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Reddcoin-Qt</string>
+  <string>Cashera-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>com.reddcoin.Reddcoin-Qt</string>
+  <string>com.Cashera.Cashera-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>com.reddcoin.ReddcoinPayment</string>
+      <string>com.Cashera.CasheraPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>reddcoin</string>
+        <string>Cashera</string>
       </array>
     </dict>
   </array>
@@ -52,9 +52,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>org.reddcoin.paymentrequest</string>
+      <string>org.Cashera.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Reddcoin payment request</string>
+      <string>Cashera payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -62,10 +62,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-reddcoin-payment-request</string>
+        <string>application/x-Cashera-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>reddcoinpaymentrequest</string>
+          <string>Casherapaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>org.reddcoin.paymentrequest</string>
+        <string>org.Cashera.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

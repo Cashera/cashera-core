@@ -3,7 +3,7 @@
 # checkpoint.py:  Construct a list of hashes to use as checkpoints.
 #
 #
-# Copyright (c) 2016 The Reddcoin developers
+# Copyright (c) 2016 The Cashera developers
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #

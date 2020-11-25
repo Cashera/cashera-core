@@ -1,5 +1,5 @@
 ---
-name: "reddcoin-win-3.10"
+name: "Cashera-win-3.10"
 enable_cache: true
 suites:
 - "precise"
@@ -20,8 +20,8 @@ packages:
 - "zip"
 reference_datetime: "2020-06-01 00:00:00"
 remotes:
-- "url": "https://github.com/reddcoin-project/reddcoin.git"
-  "dir": "reddcoin"
+- "url": "https://github.com/Cashera-project/Cashera.git"
+  "dir": "Cashera"
 files: []
 script: |
   WRAP_DIR=$HOME/wrapped
@@ -65,7 +65,7 @@ script: |
   done
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd reddcoin
+  cd Cashera
   BASEPREFIX=`pwd`/depends
   # Build dependencies for each host
   for i in $HOSTS; do
@@ -76,14 +76,14 @@ script: |
   ./autogen.sh
   ./configure --prefix=${BASEPREFIX}/`echo "${HOSTS}" | awk '{print $1;}'`
   make dist
-  SOURCEDIST=`echo reddcoin-*.tar.gz`
+  SOURCEDIST=`echo Cashera-*.tar.gz`
   DISTNAME=`echo ${SOURCEDIST} | sed 's/.tar.*//'`
 
   # Correct tar file order
   mkdir -p temp
   pushd temp
   tar xf ../$SOURCEDIST
-  find reddcoin-* | sort | tar --no-recursion -c -T - | gzip -9n > ../$SOURCEDIST
+  find Cashera-* | sort | tar --no-recursion -c -T - | gzip -9n > ../$SOURCEDIST
   popd
 
   ORIGPATH="$PATH"
@@ -100,7 +100,7 @@ script: |
     make ${MAKEOPTS}
     make deploy
     make install-strip
-    cp -f reddcoin-*setup*.exe $OUTDIR/
+    cp -f Cashera-*setup*.exe $OUTDIR/
     cd installed
     mv ${DISTNAME}/bin/*.dll ${DISTNAME}/lib/
     find . -name "lib*.la" -delete

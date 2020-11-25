@@ -306,7 +306,7 @@ public:
         assert(hashGenesisBlock == uint256("0xb868e0d95a3c3c0e0dadc67ee587aaf9dc8acbf99e3b4b3110fad4eb74c1decc"));
         assert(genesis.hashMerkleRoot == uint256("0xb502bc1dc42b07092b9187e92f70e32f9a53247feae16d821bebffa916af79ff"));
 
-        vSeeds.push_back(CDNSSeedData("reddcoin.com", "seed.reddcoin.com"));
+        vSeeds.push_back(CDNSSeedData("Cashera.com", "seed.Cashera.com"));
         vSeeds.push_back(CDNSSeedData("dnsseed01.redd.ink", "dnsseed01.redd.ink"));
         vSeeds.push_back(CDNSSeedData("dnsseed02.redd.ink", "dnsseed02.redd.ink"));
         vSeeds.push_back(CDNSSeedData("dnsseed03.redd.ink", "dnsseed03.redd.ink"));
@@ -375,7 +375,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("reddcoin.com", "testnet-seed.reddcoin.com"));
+        vSeeds.push_back(CDNSSeedData("Cashera.com", "testnet-seed.Cashera.com"));
         vSeeds.push_back(CDNSSeedData("redd.ink", "testnet-dnsseed.redd.ink"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);

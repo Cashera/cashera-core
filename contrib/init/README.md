@@ -1,9 +1,9 @@
 Sample configuration files for:
 
-SystemD: reddcoind.service
-Upstart: reddcoind.conf
-OpenRC:  reddcoind.openrc
-         reddcoind.openrcconf
+SystemD: Casherad.service
+Upstart: Casherad.conf
+OpenRC:  Casherad.openrc
+         Casherad.openrcconf
 
 have been made available to assist packagers in creating node packages here.
 

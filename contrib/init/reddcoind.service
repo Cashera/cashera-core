@@ -1,15 +1,15 @@
 [Unit]
-Description=Reddcoin's distributed currency daemon
+Description=Cashera's distributed currency daemon
 After=network.target
 
 [Service]
-User=reddcoin
-Group=reddcoin
+User=Cashera
+Group=Cashera
 
 Type=forking
-PIDFile=/var/lib/reddcoind/reddcoind.pid
-ExecStart=/usr/bin/reddcoind -daemon -pid=/var/lib/reddcoind/reddcoind.pid \
--conf=/etc/reddcoin/reddcoin.conf -datadir=/var/lib/reddcoind -disablewallet
+PIDFile=/var/lib/Casherad/Casherad.pid
+ExecStart=/usr/bin/Casherad -daemon -pid=/var/lib/Casherad/Casherad.pid \
+-conf=/etc/Cashera/Cashera.conf -datadir=/var/lib/Casherad -disablewallet
 
 Restart=always
 PrivateTmp=true

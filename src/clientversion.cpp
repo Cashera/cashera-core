@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both reddcoind and reddcoin-core, to make it harder for attackers to
+ * for both Casherad and Cashera-core, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Reddcoin");
+const std::string CLIENT_NAME("Cashera");
 
 /**
  * Client version number

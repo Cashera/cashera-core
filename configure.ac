@@ -6,7 +6,7 @@ define(_CLIENT_VERSION_REVISION, 99)
 define(_CLIENT_VERSION_BUILD, 0)
 define(_CLIENT_VERSION_IS_RELEASE, false)
 define(_COPYRIGHT_YEAR, 2020)
-AC_INIT([Reddcoin Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[support@reddcoin.com],[reddcoin])
+AC_INIT([Cashera Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[support@Cashera.com],[Cashera])
 AC_CONFIG_SRCDIR([src/main.cpp])
 AC_CONFIG_HEADERS([src/config/bitcoin-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
@@ -607,7 +607,7 @@ fi
 
 AC_ARG_WITH([utils],
   [AS_HELP_STRING([--with-utils],
-  [build reddcoin-cli reddcoin-tx (default=yes)])],
+  [build Cashera-cli Cashera-tx (default=yes)])],
   [build_bitcoin_utils=$withval],
   [build_bitcoin_utils=yes])
 
@@ -619,7 +619,7 @@ AC_ARG_WITH([libs],
 
 AC_ARG_WITH([daemon],
   [AS_HELP_STRING([--with-daemon],
-  [build reddcoind daemon (default=yes)])],
+  [build Casherad daemon (default=yes)])],
   [build_bitcoind=$withval],
   [build_bitcoind=yes])
 
@@ -659,11 +659,11 @@ fi
 
 BITCOIN_QT_PATH_PROGS([PROTOC], [protoc],$protoc_bin_path)
 
-AC_MSG_CHECKING([whether to build reddcoind])
+AC_MSG_CHECKING([whether to build Casherad])
 AM_CONDITIONAL([BUILD_BITCOIND], [test x$build_bitcoind = xyes])
 AC_MSG_RESULT($build_bitcoind)
 
-AC_MSG_CHECKING([whether to build utils (reddcoin-cli reddcoin-tx)])
+AC_MSG_CHECKING([whether to build utils (Cashera-cli Cashera-tx)])
 AM_CONDITIONAL([BUILD_BITCOIN_UTILS], [test x$build_bitcoin_utils = xyes])
 AC_MSG_RESULT($build_bitcoin_utils)
 
@@ -766,7 +766,7 @@ if test x$bitcoin_enable_qt != xno; then
     AC_MSG_WARN("xgettext is required to update qt translations")
   fi
 
-  AC_MSG_CHECKING([whether to build test_reddcoin-qt])
+  AC_MSG_CHECKING([whether to build test_Cashera-qt])
   if test x$use_tests$bitcoin_enable_qt_test = xyesyes; then
     AC_MSG_RESULT([yes])
     BUILD_TEST_QT="test"
@@ -797,7 +797,7 @@ if test "x$use_sse2" = xyes; then
 fi 
 AC_MSG_RESULT($use_sse2)
 
-AC_MSG_CHECKING([whether to build test_reddcoin])
+AC_MSG_CHECKING([whether to build test_Cashera])
 if test x$use_tests = xyes; then
   AC_MSG_RESULT([yes])
   BUILD_TEST="test"

@@ -1,6 +1,6 @@
 ARM BUILD NOTES
 ====================
-Some notes on how to build Reddcoin in Unix on Arm processors. 
+Some notes on how to build Cashera in Unix on Arm processors. 
 
 Adapted from the unix build notes, and tested on Raspian/ RasPi2
 
@@ -35,7 +35,7 @@ See noted on building [Berkeley DB](berkeley-db) for the ${BDB_PREFIX}
     make -j2
     make install # optional: will install to /usr/local/bin
 
-This will build reddcoin-cli, reddcoind reddcoin-qt if the dependencies are met.
+This will build Cashera-cli, Casherad Cashera-qt if the dependencies are met.
 
 
 Dependencies
@@ -71,7 +71,7 @@ System requirements
 --------------------
 
 C++ compilers are memory-hungry. It is recommended to have at least 1 GB of
-memory available when compiling Reddcoin Core. With 512MB of memory or less
+memory available when compiling Cashera Core. With 512MB of memory or less
 compilation will take much longer due to swap thrashing.
 
 Dependency Build Instructions: Ubuntu & Debian
@@ -115,7 +115,7 @@ Optional:
 Dependencies for the GUI: Ubuntu & Debian
 -----------------------------------------
 
-If you want to build Reddcoin-Qt, make sure that the required packages for Qt development
+If you want to build Cashera-Qt, make sure that the required packages for Qt development
 are installed. Either Qt 4 or Qt 5 are necessary to build the GUI.
 If both Qt 4 and Qt 5 are installed, Qt 4 will be used. Pass `--with-gui=qt5` to configure to choose Qt5.
 To build without GUI pass `--without-gui`.
@@ -132,12 +132,12 @@ libqrencode (optional) can be installed with:
 
     sudo apt-get install libqrencode-dev
 
-Once these are installed, they will be found by configure and a reddcoin-qt executable will be
+Once these are installed, they will be found by configure and a Cashera-qt executable will be
 built by default.
 
 Notes
 -----
-The release is built with GCC and then "strip reddcoind" to strip the debug
+The release is built with GCC and then "strip Casherad" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
 
@@ -175,7 +175,7 @@ If you need to build Boost yourself:
 
 Security
 --------
-To help make your reddcoin installation more secure by making certain attacks impossible to
+To help make your Cashera installation more secure by making certain attacks impossible to
 exploit even if a vulnerability is found, binaries are hardened by default.
 This can be disabled with:
 
@@ -199,7 +199,7 @@ Hardening enables the following features:
 
     To test that you have built PIE executable, install scanelf, part of paxutils, and use:
 
-    	scanelf -e ./reddcoin
+    	scanelf -e ./Cashera
 
     The output should contain:
      TYPE
@@ -207,13 +207,13 @@ Hardening enables the following features:
 
 * Non-executable Stack
     If the stack is executable then trivial stack based buffer overflow exploits are possible if
-    vulnerable buffers are found. By default, reddcoin should be built with a non-executable stack
+    vulnerable buffers are found. By default, Cashera should be built with a non-executable stack
     but if one of the libraries it uses asks for an executable stack or someone makes a mistake
     and uses a compiler extension which requires an executable stack, it will silently build an
     executable without the non-executable stack protection.
 
     To verify that the stack is non-executable after compiling use:
-    `scanelf -e ./reddcoin`
+    `scanelf -e ./Cashera`
 
     the output should contain:
 	STK/REL/PTL
@@ -223,7 +223,7 @@ Hardening enables the following features:
 
 Disable-wallet mode
 --------------------
-When the intention is to run only a P2P node without a wallet, reddcoin may be compiled in
+When the intention is to run only a P2P node without a wallet, Cashera may be compiled in
 disable-wallet mode with:
 
     ./configure --disable-wallet

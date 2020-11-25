@@ -146,8 +146,8 @@
         <translation>アプリケーションを終了</translation>
     </message>
     <message>
-        <source>Show information about Reddcoin</source>
-        <translation>Reddcoinに関する情報を見る</translation>
+        <source>Show information about Cashera</source>
+        <translation>Casheraに関する情報を見る</translation>
     </message>
     <message>
         <source>&amp;Options...</source>

@@ -1,7 +1,7 @@
-Reddcoin 3.10.99 BETA
+Cashera 3.10.99 BETA
 
 Copyright (c) 2009-2020 Bitcoin Core Developers
-Copyright (c) 2014-2020 Reddcoin Core Developers
+Copyright (c) 2014-2020 Cashera Core Developers
 
 Distributed under the MIT/X11 software license, see the accompanying
 file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -12,7 +12,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 Intro
 -----
-Reddcoin is a free open source peer-to-peer electronic cash system that is
+Cashera is a free open source peer-to-peer electronic cash system that is
 completely decentralized, without the need for a central server or trusted
 parties.  Users hold the crypto keys to their own money and transact directly
 with each other, with the help of a P2P network to check for double-spending.
@@ -20,13 +20,13 @@ with each other, with the help of a P2P network to check for double-spending.
 
 Setup
 -----
-Unpack the files into a directory and run reddcoin-qt.exe.
+Unpack the files into a directory and run Cashera-qt.exe.
 
-Reddcoin Core is the original Reddcoin client and it builds the backbone of the network.
-However, it downloads and stores the entire history of Reddcoin transactions;
+Cashera Core is the original Cashera client and it builds the backbone of the network.
+However, it downloads and stores the entire history of Cashera transactions;
 depending on the speed of your computer and network connection, the synchronization
 process can take anywhere from a few hours to a day or more.
 
-See the reddcoin wiki at:
-  https://wiki.reddcoin.com/
+See the Cashera wiki at:
+  https://wiki.Cashera.com/
 for more help and information.

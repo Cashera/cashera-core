@@ -1,13 +1,13 @@
 [Desktop Entry]
 Version=1.0
-Name=Reddcoin Core
-Comment=Reddcoin P2P Cryptocurrency
-Comment[fr]=Reddcoin, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Reddcoin, eşten eşe kriptografik sanal para birimi
-Exec=reddcoin-qt %u
+Name=Cashera Core
+Comment=Cashera P2P Cryptocurrency
+Comment[fr]=Cashera, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Cashera, eşten eşe kriptografik sanal para birimi
+Exec=Cashera-qt %u
 Terminal=false
 Type=Application
-Icon=reddcoin128
-MimeType=x-scheme-handler/reddcoin;
+Icon=Cashera128
+MimeType=x-scheme-handler/Cashera;
 Categories=Office;Finance;
-StartupWMClass=Reddcoin-qt
+StartupWMClass=Cashera-qt

@@ -44,9 +44,9 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 35
 
-#define QAPP_ORG_NAME "Reddcoin"
-#define QAPP_ORG_DOMAIN "reddcoin.com"
-#define QAPP_APP_NAME_DEFAULT "Reddcoin-Qt"
-#define QAPP_APP_NAME_TESTNET "Reddcoin-Qt-testnet"
+#define QAPP_ORG_NAME "Cashera"
+#define QAPP_ORG_DOMAIN "Cashera.com"
+#define QAPP_APP_NAME_DEFAULT "Cashera-Qt"
+#define QAPP_APP_NAME_TESTNET "Cashera-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

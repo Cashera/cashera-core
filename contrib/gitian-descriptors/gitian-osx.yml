@@ -1,5 +1,5 @@
 ---
-name: "reddcoin-osx-3.10"
+name: "Cashera-osx-3.10"
 enable_cache: true
 suites:
 - "precise"
@@ -20,8 +20,8 @@ packages:
 - "libbz2-dev"
 reference_datetime: "2020-06-01 00:00:00"
 remotes:
-- "url": "https://github.com/reddcoin-project/reddcoin.git"
-  "dir": "reddcoin"
+- "url": "https://github.com/Cashera-project/Cashera.git"
+  "dir": "Cashera"
 files:
 - "MacOSX10.9.sdk.tar.gz"
 script: |
@@ -68,7 +68,7 @@ script: |
   done
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd reddcoin
+  cd Cashera
   BASEPREFIX=`pwd`/depends
 
   mkdir -p ${BASEPREFIX}/SDKs
@@ -83,14 +83,14 @@ script: |
   ./autogen.sh
   ./configure --prefix=${BASEPREFIX}/`echo "${HOSTS}" | awk '{print $1;}'`
   make dist
-  SOURCEDIST=`echo reddcoin-*.tar.gz`
+  SOURCEDIST=`echo Cashera-*.tar.gz`
   DISTNAME=`echo ${SOURCEDIST} | sed 's/.tar.*//'`
 
   # Correct tar file order
   mkdir -p temp
   pushd temp
   tar xf ../$SOURCEDIST
-  find reddcoin-* | sort | tar --no-recursion -c -T - | gzip -9n > ../$SOURCEDIST
+  find Cashera-* | sort | tar --no-recursion -c -T - | gzip -9n > ../$SOURCEDIST
   popd
 
   ORIGPATH="$PATH"
@@ -120,7 +120,7 @@ script: |
     popd
 
     make deploy
-    ${WRAP_DIR}/dmg dmg Reddcoin-Qt.dmg ${OUTDIR}/${DISTNAME}-osx-unsigned.dmg
+    ${WRAP_DIR}/dmg dmg Cashera-Qt.dmg ${OUTDIR}/${DISTNAME}-osx-unsigned.dmg
 
     cd installed
     find . -name "lib*.la" -delete

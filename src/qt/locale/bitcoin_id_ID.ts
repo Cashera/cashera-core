@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Reddcoin Core</source>
-        <translation>Mengenai Reddcoin Core</translation>
+        <source>About Cashera Core</source>
+        <translation>Mengenai Cashera Core</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Reddcoin Core&lt;/b&gt; version</source>
-        <translation>versi &lt;b&gt;Reddcoin Core&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Cashera Core&lt;/b&gt; version</source>
+        <translation>versi &lt;b&gt;Cashera Core&lt;/b&gt;</translation>
     </message>
     <message>
         <source>
@@ -28,8 +28,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Hak cipta</translation>
     </message>
     <message>
-        <source>The Reddcoin Core developers</source>
-        <translation>Pembangun Reddcoin Core</translation>
+        <source>The Cashera Core developers</source>
+        <translation>Pembangun Cashera Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -103,11 +103,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Alamat-alamat menerima</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Alamat-alamat Anda supaya mengirim pembayaran. Periksalah jumlah dan alamat penerima setiap kali Anda mengirim Reddcoin.</translation>
+        <source>These are your Cashera addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Alamat-alamat Anda supaya mengirim pembayaran. Periksalah jumlah dan alamat penerima setiap kali Anda mengirim Cashera.</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Cashera addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Alamat-alamat Anda supaya menerima pembayaran. Dianjurkan agar Anda menggunakan alamat menerima yang baru untuk setiap transaksi.</translation>
     </message>
     <message>
@@ -205,8 +205,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Konfirmasi enkripsi dompet</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
-        <translation>Perhatian: Jika anda mengenkripsi dompet anda dan lupa kata kuncinya, anda pasti &lt;b&gt;KEHILANGAN SELURUH REDDCOIN ANDA&lt;/B&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CasheraS&lt;/b&gt;!</source>
+        <translation>Perhatian: Jika anda mengenkripsi dompet anda dan lupa kata kuncinya, anda pasti &lt;b&gt;KEHILANGAN SELURUH Cashera ANDA&lt;/B&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -225,8 +225,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Dompet terenkripsi</translation>
     </message>
     <message>
-        <source>Reddcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your reddcoins from being stolen by malware infecting your computer.</source>
-        <translation>Reddcoin akan menutup untuk menyelesaikan proses enkripsi. Ingat bahwa dengan mengenkripsi dompet Anda tidak sepenuhnya melindungi reddcoin Anda dari perangkat lunak berbahaya yang menginfeksi komputer Anda.</translation>
+        <source>Cashera will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Casheras from being stolen by malware infecting your computer.</source>
+        <translation>Cashera akan menutup untuk menyelesaikan proses enkripsi. Ingat bahwa dengan mengenkripsi dompet Anda tidak sepenuhnya melindungi Cashera Anda dari perangkat lunak berbahaya yang menginfeksi komputer Anda.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -284,8 +284,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Permintaan</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
-        <translation>Permintaan pembayaran (membuat kode QR dan reddcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and Cashera: URIs)</source>
+        <translation>Permintaan pembayaran (membuat kode QR dan Cashera: URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -304,8 +304,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Keluar dari aplikasi</translation>
     </message>
     <message>
-        <source>Show information about Reddcoin</source>
-        <translation>Tampilkan informasi mengenai Reddcoin</translation>
+        <source>Show information about Cashera</source>
+        <translation>Tampilkan informasi mengenai Cashera</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -360,12 +360,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Buka &amp;URI</translation>
     </message>
     <message>
-        <source>Open a reddcoin: URI or payment request</source>
-        <translation>Buka URI reddcoin: atau permintaan pembayaran</translation>
+        <source>Open a Cashera: URI or payment request</source>
+        <translation>Buka URI Cashera: atau permintaan pembayaran</translation>
     </message>
     <message>
-        <source>Reddcoin Core client</source>
-        <translation>Klien Reddcoin Core</translation>
+        <source>Cashera Core client</source>
+        <translation>Klien Cashera Core</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -376,12 +376,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Mengindex ulang block di harddisk...</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation>Kirim koin ke alamat Reddcoin</translation>
+        <source>Send coins to a Cashera address</source>
+        <translation>Kirim koin ke alamat Cashera</translation>
     </message>
     <message>
-        <source>Modify configuration options for Reddcoin</source>
-        <translation>Ubah pilihan konfigurasi untuk Reddcoin</translation>
+        <source>Modify configuration options for Cashera</source>
+        <translation>Ubah pilihan konfigurasi untuk Cashera</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -404,8 +404,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Verifikasi pesan...</translation>
     </message>
     <message>
-        <source>Reddcoin</source>
-        <translation>Reddcoin</translation>
+        <source>Cashera</source>
+        <translation>Cashera</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -428,12 +428,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Mengenkripsi kunci-kunci pribadi yang dipunyai dompetmu</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation>Tandalah pesanan dengan alamat-alamat Reddcoin Anda supaya membuktikan pesanan itu dikirim oleh Anda</translation>
+        <source>Sign messages with your Cashera addresses to prove you own them</source>
+        <translation>Tandalah pesanan dengan alamat-alamat Cashera Anda supaya membuktikan pesanan itu dikirim oleh Anda</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation>Periksakan pesan-pesan supaya menjaminkan ditandatangani oleh alamat Reddcoin yang terperinci</translation>
+        <source>Verify messages to ensure they were signed with specified Cashera addresses</source>
+        <translation>Periksakan pesan-pesan supaya menjaminkan ditandatangani oleh alamat Cashera yang terperinci</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -456,12 +456,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Reddcoin Core</source>
-        <translation>Reddcoin Core</translation>
+        <source>Cashera Core</source>
+        <translation>Cashera Core</translation>
     </message>
     <message>
-        <source>&amp;About Reddcoin Core</source>
-        <translation>&amp;Mengenai Reddcoin Core</translation>
+        <source>&amp;About Cashera Core</source>
+        <translation>&amp;Mengenai Cashera Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -476,12 +476,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;pilihan Perintah-baris</translation>
     </message>
     <message>
-        <source>Show the Reddcoin Core help message to get a list with possible Reddcoin command-line options</source>
-        <translation>Tampilkan pesan bantuan Reddcoin Core untuk memberikan daftar pilihan perintah-baris yang memungkinkan dalam aplikasi Reddcoin</translation>
+        <source>Show the Cashera Core help message to get a list with possible Cashera command-line options</source>
+        <translation>Tampilkan pesan bantuan Cashera Core untuk memberikan daftar pilihan perintah-baris yang memungkinkan dalam aplikasi Cashera</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network</source>
-        <translation><numerusform>%n hubungan aktif ke jaringan Reddcoin</numerusform></translation>
+        <source>%n active connection(s) to Cashera network</source>
+        <translation><numerusform>%n hubungan aktif ke jaringan Cashera</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -572,8 +572,8 @@ Alamat: %4
         <translation>Dompet saat ini &lt;b&gt;terenkripsi&lt;/b&gt; dan &lt;b&gt;terkunci&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Reddcoin can no longer continue safely and will quit.</source>
-        <translation>Terjadi kesalahan fatal. Reddcoin tidak bisa lagi meneruskan dengan aman dan akan berhenti.</translation>
+        <source>A fatal error occurred. Cashera can no longer continue safely and will quit.</source>
+        <translation>Terjadi kesalahan fatal. Cashera tidak bisa lagi meneruskan dengan aman dan akan berhenti.</translation>
     </message>
 </context>
 <context>
@@ -857,8 +857,8 @@ Alamat: %4
         <translation>Alamat yang dimasukkan "%1" sudah ada di dalam buku alamat.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
-        <translation>Alamat yang dimasukkan "%1" bukan alamat Reddcoin yang benar.</translation>
+        <source>The entered address "%1" is not a valid Cashera address.</source>
+        <translation>Alamat yang dimasukkan "%1" bukan alamat Cashera yang benar.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -895,12 +895,12 @@ Alamat: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Reddcoin Core - Command-line options</source>
-        <translation>Reddcoin Core - pilihan Perintah-baris</translation>
+        <source>Cashera Core - Command-line options</source>
+        <translation>Cashera Core - pilihan Perintah-baris</translation>
     </message>
     <message>
-        <source>Reddcoin Core</source>
-        <translation>Reddcoin Core</translation>
+        <source>Cashera Core</source>
+        <translation>Cashera Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -942,16 +942,16 @@ Alamat: %4
         <translation>Selamat Datang</translation>
     </message>
     <message>
-        <source>Welcome to Reddcoin Core.</source>
-        <translation>Selamat Datang ke Reddcoin Core</translation>
+        <source>Welcome to Cashera Core.</source>
+        <translation>Selamat Datang ke Cashera Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Reddcoin Core will store its data.</source>
-        <translation>Ini adalah pertama kali program ini dijalankan, Anda dapat memilih dimana Reddcoin Core menyimpan data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Cashera Core will store its data.</source>
+        <translation>Ini adalah pertama kali program ini dijalankan, Anda dapat memilih dimana Cashera Core menyimpan data.</translation>
     </message>
     <message>
-        <source>Reddcoin Core will download and store a copy of the Reddcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Reddcoin Core akan mengunduh dan menyimpan salinan dari block chain Reddcoin. Setidaknya %1GB data akan disimpan di direktori ini, dan akan terus bertambah. Dompet Anda juga akan disimpan di direktori ini.</translation>
+        <source>Cashera Core will download and store a copy of the Cashera block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Cashera Core akan mengunduh dan menyimpan salinan dari block chain Cashera. Setidaknya %1GB data akan disimpan di direktori ini, dan akan terus bertambah. Dompet Anda juga akan disimpan di direktori ini.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -962,8 +962,8 @@ Alamat: %4
         <translation>Menggunakan direktori data yang dipilih Anda:</translation>
     </message>
     <message>
-        <source>Reddcoin Core</source>
-        <translation>Reddcoin Core</translation>
+        <source>Cashera Core</source>
+        <translation>Cashera Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" can not be created.</source>
@@ -1024,12 +1024,12 @@ Alamat: %4
         <translation>Bayar &amp;biaya transaksi</translation>
     </message>
     <message>
-        <source>Automatically start Reddcoin after logging in to the system.</source>
-        <translation>Menyalakan Reddcoin secara otomatis setelah masuk ke dalam sistem.</translation>
+        <source>Automatically start Cashera after logging in to the system.</source>
+        <translation>Menyalakan Cashera secara otomatis setelah masuk ke dalam sistem.</translation>
     </message>
     <message>
-        <source>&amp;Start Reddcoin on system login</source>
-        <translation>&amp;Menyalakan Reddcoin pada login sistem</translation>
+        <source>&amp;Start Cashera on system login</source>
+        <translation>&amp;Menyalakan Cashera pada login sistem</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1044,8 +1044,8 @@ Alamat: %4
         <translation>Jumlah script &amp;verification threads</translation>
     </message>
     <message>
-        <source>Connect to the Reddcoin network through a SOCKS proxy.</source>
-        <translation>Menghubungkan jaringan Reddcoin lewat proxy SOCKS.</translation>
+        <source>Connect to the Cashera network through a SOCKS proxy.</source>
+        <translation>Menghubungkan jaringan Cashera lewat proxy SOCKS.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS proxy (default proxy):</source>
@@ -1104,8 +1104,8 @@ Alamat: %4
         <translation>&amp;Perubahan saldo untuk transaksi yang belum dikonfirmasi</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Otomatis membuka port client Reddcoin di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
+        <source>Automatically open the Cashera client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Otomatis membuka port client Cashera di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1160,8 +1160,8 @@ Alamat: %4
         <translation>&amp;Bahasa Antarmuka Pengguna:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Reddcoin.</source>
-        <translation>Tampilan bahasa pengguna dapat diatur disini. Pengaturan ini akan berpengaruh setelah memulai kembali aplikasi Reddcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Cashera.</source>
+        <translation>Tampilan bahasa pengguna dapat diatur disini. Pengaturan ini akan berpengaruh setelah memulai kembali aplikasi Cashera.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1172,8 +1172,8 @@ Alamat: %4
         <translation>Pilihan standar unit yang ingin ditampilkan pada layar aplikasi dan saat mengirim koin.</translation>
     </message>
     <message>
-        <source>Whether to show Reddcoin addresses in the transaction list or not.</source>
-        <translation>Apakah menampilkan alamat-alamat Reddcoin dalam daftar transaksi atau tidak.</translation>
+        <source>Whether to show Cashera addresses in the transaction list or not.</source>
+        <translation>Apakah menampilkan alamat-alamat Cashera dalam daftar transaksi atau tidak.</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
@@ -1227,8 +1227,8 @@ Alamat: %4
         <translation>Formulir</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan Reddcoin ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Cashera network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan Cashera ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1282,8 +1282,8 @@ Alamat: %4
         <translation>Penanganan URI</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Reddcoin address or malformed URI parameters.</source>
-        <translation>URI tidak bisa dimengerti! Biasanya oleh karena alamat Reddcoin yang tidak sah atau persoalan tentang parameter-parameter URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Cashera address or malformed URI parameters.</source>
+        <translation>URI tidak bisa dimengerti! Biasanya oleh karena alamat Cashera yang tidak sah atau persoalan tentang parameter-parameter URI.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1321,8 +1321,8 @@ Alamat: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Reddcoin Core</source>
-        <translation>Reddcoin Core</translation>
+        <source>Cashera Core</source>
+        <translation>Cashera Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -1337,12 +1337,12 @@ Alamat: %4
         <translation>Gagal: Gabungan -regtest dan -testnet salah.</translation>
     </message>
     <message>
-        <source>Reddcoin Core didn't yet exit safely...</source>
-        <translation>Inti Reddcoin belum keluar dengan sempurna...</translation>
+        <source>Cashera Core didn't yet exit safely...</source>
+        <translation>Inti Cashera belum keluar dengan sempurna...</translation>
     </message>
     <message>
-        <source>Enter a Reddcoin address (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
-        <translation>Masukkan alamat Reddcoin (cth. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
+        <source>Enter a Cashera address (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
+        <translation>Masukkan alamat Cashera (cth. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
     </message>
 </context>
 <context>
@@ -1459,7 +1459,7 @@ Alamat: %4
         <translation>Berkas catatan debug</translation>
     </message>
     <message>
-        <source>Open the Reddcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Cashera debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Buka berkas catatan debug Bitcoin dari direktori data sekarang. Hal ini dapat memakan waktu beberapa detik untuk berkas catatan yang besar.</translation>
     </message>
     <message>
@@ -1467,8 +1467,8 @@ Alamat: %4
         <translation>Bersihkan konsol</translation>
     </message>
     <message>
-        <source>Welcome to the Reddcoin RPC console.</source>
-        <translation>Selamat datang ke konsol RPC Reddcoin.</translation>
+        <source>Welcome to the Cashera RPC console.</source>
+        <translation>Selamat datang ke konsol RPC Cashera.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1835,8 +1835,8 @@ Alamat: %4
         <translation>Gagal: Transaksi ditolak. Ini mungkin terjadi jika beberapa dari koin dalam dompet Anda telah digunakan, seperti ketika Anda menggunakan salinan wallet.dat dan beberapa koin telah dibelanjakan dalam salinan tersebut tetapi disini tidak tertandai sebagai terpakai.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Reddcoin address</source>
-        <translation>Awas: Alamat Reddcoin tidak sah</translation>
+        <source>Warning: Invalid Cashera address</source>
+        <translation>Awas: Alamat Cashera tidak sah</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1886,8 +1886,8 @@ Alamat: %4
         <translation>Ini adalah pembayaran normal.</translation>
     </message>
     <message>
-        <source>The Reddcoin address to send the payment to (e.g. Rppgy8PHbBrknXfDmfEmqZXTKMR1yiwVtB)</source>
-        <translation>Alamat Reddcoin untuk mengirim pembayaran ke (cth. Rppgy8PHbBrknXfDmfEmqZXTKMR1yiwVtB)</translation>
+        <source>The Cashera address to send the payment to (e.g. Rppgy8PHbBrknXfDmfEmqZXTKMR1yiwVtB)</source>
+        <translation>Alamat Cashera untuk mengirim pembayaran ke (cth. Rppgy8PHbBrknXfDmfEmqZXTKMR1yiwVtB)</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1933,8 +1933,8 @@ Alamat: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Reddcoin Core is shutting down...</source>
-        <translation>Reddcoin Core sementara dimatikan...</translation>
+        <source>Cashera Core is shutting down...</source>
+        <translation>Cashera Core sementara dimatikan...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1952,8 +1952,8 @@ Alamat: %4
         <translation>&amp;Tandakan Pesan</translation>
     </message>
     <message>
-        <source>The Reddcoin address to sign the message with (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
-        <translation>Alamat Reddcoin yang akan ditandai pesan (cth. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
+        <source>The Cashera address to sign the message with (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
+        <translation>Alamat Cashera yang akan ditandai pesan (cth. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1984,8 +1984,8 @@ Alamat: %4
         <translation>Salin tanda tangan terpilih ke sistem klipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat Reddcoin ini</translation>
+        <source>Sign the message to prove you own this Cashera address</source>
+        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat Cashera ini</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2016,8 +2016,8 @@ Alamat: %4
         <translation>Tekan "Tandatangan Pesan" untuk menghasilan tanda tangan</translation>
     </message>
     <message>
-        <source>Enter a Reddcoin address (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
-        <translation>Masukkan alamat Reddcoin (cth. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
+        <source>Enter a Cashera address (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
+        <translation>Masukkan alamat Cashera (cth. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -2071,12 +2071,12 @@ Alamat: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Reddcoin Core</source>
-        <translation>Reddcoin Core</translation>
+        <source>Cashera Core</source>
+        <translation>Cashera Core</translation>
     </message>
     <message>
-        <source>The Reddcoin Core developers</source>
-        <translation>Pembangun Reddcoin Core</translation>
+        <source>The Cashera Core developers</source>
+        <translation>Pembangun Cashera Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2590,8 +2590,8 @@ Alamat: %4
         <translation>Jalankan perintah ketika perubahan transaksi dompet (%s di cmd digantikan oleh TxID)</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Reddcoin Core is probably already running.</source>
-        <translation>Tidak bisa mengikat dengan %s di computer ini. Kemungkinan Reddcoin Core sudah mulai.</translation>
+        <source>Unable to bind to %s on this computer. Cashera Core is probably already running.</source>
+        <translation>Tidak bisa mengikat dengan %s di computer ini. Kemungkinan Cashera Core sudah mulai.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
@@ -2602,8 +2602,8 @@ Alamat: %4
         <translation>Peringatan: -paytxfee sangat besar! Ini adalah biaya pengiriman yang akan dibayar oleh Anda jika transaksi terkirim.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Reddcoin will not work properly.</source>
-        <translation>Perhatian: Mohon diperiksa pengaturan tanggal dan waktu komputer anda apakah sudah benar! Jika pengaturan waktu salah aplikasi Reddcoin tidak akan berjalan dengan tepat.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Cashera will not work properly.</source>
+        <translation>Perhatian: Mohon diperiksa pengaturan tanggal dan waktu komputer anda apakah sudah benar! Jika pengaturan waktu salah aplikasi Cashera tidak akan berjalan dengan tepat.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2766,12 +2766,12 @@ Alamat: %4
         <translation>Mengatur jumlah urutan untuk layanan panggilan RPC (standar: 4)</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: reddcoin.conf)</source>
-        <translation>Tentukan berkas konfigurasi (standar: reddcoin.conf)</translation>
+        <source>Specify configuration file (default: Cashera.conf)</source>
+        <translation>Tentukan berkas konfigurasi (standar: Cashera.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: reddcoind.pid)</source>
-        <translation>Tentukan berkas pid (standar: reddcoind.pid)</translation>
+        <source>Specify pid file (default: Casherad.pid)</source>
+        <translation>Tentukan berkas pid (standar: Casherad.pid)</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
@@ -2810,8 +2810,8 @@ Alamat: %4
         <translation>Impor blok dari eksternal berkas blk000???.dat</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Reddcoin Core is probably already running.</source>
-        <translation>Tidak bisa mengunci data directory %s. Kemungkinan Reddcoin Core sudah mulai.</translation>
+        <source>Cannot obtain a lock on data directory %s. Cashera Core is probably already running.</source>
+        <translation>Tidak bisa mengunci data directory %s. Kemungkinan Cashera Core sudah mulai.</translation>
     </message>
     <message>
         <source>Information</source>
@@ -2838,8 +2838,8 @@ Alamat: %4
         <translation>Opsi server RPC:</translation>
     </message>
     <message>
-        <source>SSL options: (see the Reddcoin Wiki for SSL setup instructions)</source>
-        <translation>Pilihan SSL: (petunjuk pengaturan SSL lihat dalam Reddcoin Wiki)</translation>
+        <source>SSL options: (see the Cashera Wiki for SSL setup instructions)</source>
+        <translation>Pilihan SSL: (petunjuk pengaturan SSL lihat dalam Cashera Wiki)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: 0)</source>
@@ -2858,8 +2858,8 @@ Alamat: %4
         <translation>Menetapkan waktu berakhir koneksi di milidetik (standar: 5000)</translation>
     </message>
     <message>
-        <source>Start Reddcoin Core Daemon</source>
-        <translation>Memulai Reddcoin Core Daemon</translation>
+        <source>Start Cashera Core Daemon</source>
+        <translation>Memulai Cashera Core Daemon</translation>
     </message>
     <message>
         <source>System error: </source>
@@ -2958,12 +2958,12 @@ Alamat: %4
         <translation>Gagal memuat wallet.dat: Dompet rusak</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Reddcoin</source>
-        <translation>Gagal memuat wallet.dat: Dompet memerlukan versi Reddcoin yang terbaru</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Cashera</source>
+        <translation>Gagal memuat wallet.dat: Dompet memerlukan versi Cashera yang terbaru</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Reddcoin to complete</source>
-        <translation>Dompet diperlukan untuk disimpan-ulang: nyala-ulangkan Reddcoin untuk menyelesaikan</translation>
+        <source>Wallet needed to be rewritten: restart Cashera to complete</source>
+        <translation>Dompet diperlukan untuk disimpan-ulang: nyala-ulangkan Cashera untuk menyelesaikan</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

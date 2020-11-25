@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Reddcoin Core</source>
-        <translation>關於Reddcoin核心</translation>
+        <source>About Cashera Core</source>
+        <translation>關於Cashera核心</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Reddcoin Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Reddcoin核心&lt;/b&gt; 版本</translation>
+        <source>&lt;b&gt;Cashera Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Cashera核心&lt;/b&gt; 版本</translation>
     </message>
     <message>
         <source>
@@ -27,8 +27,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>版权</translation>
     </message>
     <message>
-        <source>The Reddcoin Core developers</source>
-        <translation>Reddcoin Core 的开发者</translation>
+        <source>The Cashera Core developers</source>
+        <translation>Cashera Core 的开发者</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -102,12 +102,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>接收地址</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>这是您用来付款的Reddcoin地址。在付款前，请总是核实付款金额和收款地址。</translation>
+        <source>These are your Cashera addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>这是您用来付款的Cashera地址。在付款前，请总是核实付款金额和收款地址。</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>这些是您的Reddcoin的收款地址。建议对每笔交易都使用一个新的收款地址。</translation>
+        <source>These are your Cashera addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>这些是您的Cashera的收款地址。建议对每笔交易都使用一个新的收款地址。</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -212,8 +212,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>确认加密钱包</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
-        <translation>警告：如果您加密了您的钱包，但是忘记了密码，你将会&lt;b&gt;丢失所有的Reddcoin&lt;/b&gt;！</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CasheraS&lt;/b&gt;!</source>
+        <translation>警告：如果您加密了您的钱包，但是忘记了密码，你将会&lt;b&gt;丢失所有的Cashera&lt;/b&gt;！</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -232,8 +232,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>钱包已加密</translation>
     </message>
     <message>
-        <source>Reddcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your reddcoins from being stolen by malware infecting your computer.</source>
-        <translation>将关闭软件以完成加密过程。 请您谨记：钱包加密并不是万能的，电脑中毒，您的Reddcoin还是有可能丢失。</translation>
+        <source>Cashera will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Casheras from being stolen by malware infecting your computer.</source>
+        <translation>将关闭软件以完成加密过程。 请您谨记：钱包加密并不是万能的，电脑中毒，您的Cashera还是有可能丢失。</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -291,8 +291,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>請求 (&amp;R)</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
-        <translation>请求支付（生成QR码和 reddcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and Cashera: URIs)</source>
+        <translation>请求支付（生成QR码和 Cashera: URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -311,8 +311,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>退出程序</translation>
     </message>
     <message>
-        <source>Show information about Reddcoin</source>
-        <translation>显示Reddcoin的相关信息</translation>
+        <source>Show information about Cashera</source>
+        <translation>显示Cashera的相关信息</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -367,12 +367,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>打开URI (&amp;U)</translation>
     </message>
     <message>
-        <source>Open a reddcoin: URI or payment request</source>
-        <translation>打开一个 reddcoin： URI 或支付请求</translation>
+        <source>Open a Cashera: URI or payment request</source>
+        <translation>打开一个 Cashera： URI 或支付请求</translation>
     </message>
     <message>
-        <source>Reddcoin Core client</source>
-        <translation>Reddcoin核心客戶</translation>
+        <source>Cashera Core client</source>
+        <translation>Cashera核心客戶</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -407,12 +407,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>不在stake</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation>向一个地址发送Reddcoin</translation>
+        <source>Send coins to a Cashera address</source>
+        <translation>向一个地址发送Cashera</translation>
     </message>
     <message>
-        <source>Modify configuration options for Reddcoin</source>
-        <translation>修改Reddcoin配置選項</translation>
+        <source>Modify configuration options for Cashera</source>
+        <translation>修改Cashera配置選項</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -435,8 +435,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>验证消息... (&amp;V)</translation>
     </message>
     <message>
-        <source>Reddcoin</source>
-        <translation>Reddcoin</translation>
+        <source>Cashera</source>
+        <translation>Cashera</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -459,12 +459,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>对钱包中的私钥加密</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation>用Reddcoin地址关联的私钥为消息签名，以证明您拥有这个地址</translation>
+        <source>Sign messages with your Cashera addresses to prove you own them</source>
+        <translation>用Cashera地址关联的私钥为消息签名，以证明您拥有这个地址</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation>校验消息，确保该消息是由指定的Reddcoin地址所有者签名的</translation>
+        <source>Verify messages to ensure they were signed with specified Cashera addresses</source>
+        <translation>校验消息，确保该消息是由指定的Cashera地址所有者签名的</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,12 +487,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Reddcoin Core</source>
-        <translation>Reddcoin 核心</translation>
+        <source>Cashera Core</source>
+        <translation>Cashera 核心</translation>
     </message>
     <message>
-        <source>&amp;About Reddcoin Core</source>
-        <translation>關於Reddcoin核心 (&amp;A)</translation>
+        <source>&amp;About Cashera Core</source>
+        <translation>關於Cashera核心 (&amp;A)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -507,12 +507,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>命令行选项 (&amp;C)</translation>
     </message>
     <message>
-        <source>Show the Reddcoin Core help message to get a list with possible Reddcoin command-line options</source>
-        <translation>顯示Reddcoin核心幫助信息獲取與可能Reddcoin命令行選項列表</translation>
+        <source>Show the Cashera Core help message to get a list with possible Cashera command-line options</source>
+        <translation>顯示Cashera核心幫助信息獲取與可能Cashera命令行選項列表</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network</source>
-        <translation><numerusform>%n 來Reddcoin網絡有效連接</numerusform></translation>
+        <source>%n active connection(s) to Cashera network</source>
+        <translation><numerusform>%n 來Cashera網絡有效連接</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -603,8 +603,8 @@ Address: %4
         <translation>钱包已被&lt;b&gt;加密&lt;/b&gt;，当前为&lt;b&gt;锁定&lt;/b&gt;状态</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Reddcoin can no longer continue safely and will quit.</source>
-        <translation>發生致命錯誤。Reddcoin再也不能安全地繼續，並會退出。</translation>
+        <source>A fatal error occurred. Cashera can no longer continue safely and will quit.</source>
+        <translation>發生致命錯誤。Cashera再也不能安全地繼續，並會退出。</translation>
     </message>
 </context>
 <context>
@@ -888,8 +888,8 @@ Address: %4
         <translation>输入的地址“%1”已经存在于地址簿中。</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
-        <translation>您输入的 "%1" 不是合法的Reddcoin地址.</translation>
+        <source>The entered address "%1" is not a valid Cashera address.</source>
+        <translation>您输入的 "%1" 不是合法的Cashera地址.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -926,12 +926,12 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Reddcoin Core - Command-line options</source>
-        <translation>Reddcoin核心 - 命令行選項</translation>
+        <source>Cashera Core - Command-line options</source>
+        <translation>Cashera核心 - 命令行選項</translation>
     </message>
     <message>
-        <source>Reddcoin Core</source>
-        <translation>Reddcoin 核心</translation>
+        <source>Cashera Core</source>
+        <translation>Cashera 核心</translation>
     </message>
     <message>
         <source>version</source>
@@ -977,16 +977,16 @@ Address: %4
         <translation>欢迎</translation>
     </message>
     <message>
-        <source>Welcome to Reddcoin Core.</source>
-        <translation>歡迎Reddcoin核心。</translation>
+        <source>Welcome to Cashera Core.</source>
+        <translation>歡迎Cashera核心。</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Reddcoin Core will store its data.</source>
-        <translation>由於這是第一次啟動程序時，你可以選擇在哪裡Reddcoin核心將存儲其數據。</translation>
+        <source>As this is the first time the program is launched, you can choose where Cashera Core will store its data.</source>
+        <translation>由於這是第一次啟動程序時，你可以選擇在哪裡Cashera核心將存儲其數據。</translation>
     </message>
     <message>
-        <source>Reddcoin Core will download and store a copy of the Reddcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Reddcoin核心將下載並存儲Reddcoin block chain。至少%1GB的數據將被存儲在這個目錄中，它會隨著時間而增加。錢包也將被存儲在該目錄中。</translation>
+        <source>Cashera Core will download and store a copy of the Cashera block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Cashera核心將下載並存儲Cashera block chain。至少%1GB的數據將被存儲在這個目錄中，它會隨著時間而增加。錢包也將被存儲在該目錄中。</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -997,8 +997,8 @@ Address: %4
         <translation>使用自定的数据目录：</translation>
     </message>
     <message>
-        <source>Reddcoin Core</source>
-        <translation>Reddcoin 核心</translation>
+        <source>Cashera Core</source>
+        <translation>Cashera 核心</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" can not be created.</source>
@@ -1059,12 +1059,12 @@ Address: %4
         <translation>支付交易费用 (&amp;F)</translation>
     </message>
     <message>
-        <source>Automatically start Reddcoin after logging in to the system.</source>
-        <translation>登录系统后自动开启Reddcoin客户端</translation>
+        <source>Automatically start Cashera after logging in to the system.</source>
+        <translation>登录系统后自动开启Cashera客户端</translation>
     </message>
     <message>
-        <source>&amp;Start Reddcoin on system login</source>
-        <translation>在系統登錄時啟動Reddcoin(&amp;S)</translation>
+        <source>&amp;Start Cashera on system login</source>
+        <translation>在系統登錄時啟動Cashera(&amp;S)</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1079,8 +1079,8 @@ Address: %4
         <translation>脚本和验证进程数量</translation>
     </message>
     <message>
-        <source>Connect to the Reddcoin network through a SOCKS proxy.</source>
-        <translation>通过 SOCKS 代理连接到 Reddcoin 网络。</translation>
+        <source>Connect to the Cashera network through a SOCKS proxy.</source>
+        <translation>通过 SOCKS 代理连接到 Cashera 网络。</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS proxy (default proxy):</source>
@@ -1139,8 +1139,8 @@ Address: %4
         <translation>&amp;选择未经确认的花费</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自动在路由器中打开Reddcoin端口。只有当您的路由器开启 UPnP 选项时此功能才有效。</translation>
+        <source>Automatically open the Cashera client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自动在路由器中打开Cashera端口。只有当您的路由器开启 UPnP 选项时此功能才有效。</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1195,8 +1195,8 @@ Address: %4
         <translation>用户界面语言(&amp;L)：</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Reddcoin.</source>
-        <translation>用戶界面語言可在此設置。此設置將重新啟動Reddcoin後生效。</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Cashera.</source>
+        <translation>用戶界面語言可在此設置。此設置將重新啟動Cashera後生效。</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1204,15 +1204,15 @@ Address: %4
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>选择界面显示和发送的硬币时默认的Reddcoin单位。</translation>
+        <translation>选择界面显示和发送的硬币时默认的Cashera单位。</translation>
     </message>
     <message>
-        <source>Whether to show Reddcoin addresses in the transaction list or not.</source>
-        <translation>是否需要在交易清单中显示 Reddcoin 地址。</translation>
+        <source>Whether to show Cashera addresses in the transaction list or not.</source>
+        <translation>是否需要在交易清单中显示 Cashera 地址。</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
-        <translation>在交易清单中显示 Reddcoin 地址 (&amp;D)</translation>
+        <translation>在交易清单中显示 Cashera 地址 (&amp;D)</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1262,8 +1262,8 @@ Address: %4
         <translation>表单</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>现在显示的消息可能是过期的. 在连接上 Reddcoin 网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Cashera network after a connection is established, but this process has not completed yet.</source>
+        <translation>现在显示的消息可能是过期的. 在连接上 Cashera 网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1325,8 +1325,8 @@ Address: %4
         <translation>URI 处理</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Reddcoin address or malformed URI parameters.</source>
-        <translation>URI无法解析！原因可能是Reddcoin地址不正确，或URI参数错误。</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Cashera address or malformed URI parameters.</source>
+        <translation>URI无法解析！原因可能是Cashera地址不正确，或URI参数错误。</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1337,8 +1337,8 @@ Address: %4
         <translation>支付请求出错</translation>
     </message>
     <message>
-        <source>Cannot start reddcoin: click-to-pay handler</source>
-        <translation>暂时无法启动 Reddcoin ：点击支付功能</translation>
+        <source>Cannot start Cashera: click-to-pay handler</source>
+        <translation>暂时无法启动 Cashera ：点击支付功能</translation>
     </message>
     <message>
         <source>Net manager warning</source>
@@ -1392,8 +1392,8 @@ Address: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Reddcoin Core</source>
-        <translation>Reddcoin 核心</translation>
+        <source>Cashera Core</source>
+        <translation>Cashera 核心</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -1408,11 +1408,11 @@ Address: %4
         <translation>错误：无效的 -regtest 与 -testnet 组合。</translation>
     </message>
     <message>
-        <source>Reddcoin Core didn't yet exit safely...</source>
-        <translation>Reddcoin核心钱包没有安全退出....</translation>
+        <source>Cashera Core didn't yet exit safely...</source>
+        <translation>Cashera核心钱包没有安全退出....</translation>
     </message>
     <message>
-        <source>Enter a Reddcoin address (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
+        <source>Enter a Cashera address (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
         <translation>请输入比特币地址（例如: RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX）</translation>
     </message>
 </context>
@@ -1530,7 +1530,7 @@ Address: %4
         <translation>调试日志文件</translation>
     </message>
     <message>
-        <source>Open the Reddcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Cashera debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>打开当前目录中的调试日志文件。日志文件大的话可能要等上几秒钟。</translation>
     </message>
     <message>
@@ -1538,7 +1538,7 @@ Address: %4
         <translation>清空控制台</translation>
     </message>
     <message>
-        <source>Welcome to the Reddcoin RPC console.</source>
+        <source>Welcome to the Cashera RPC console.</source>
         <translation>欢迎来到 RPC 控制台。</translation>
     </message>
     <message>
@@ -1601,8 +1601,8 @@ Address: %4
         <translation>重复使用接收地址（不推荐） (&amp;E)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reddcoin network.</source>
-        <translation>可在付款请求上附带一条信息，在打开付款请求时可以看到。注意：该消息不是通过Reddcoin网络传送。</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Cashera network.</source>
+        <translation>可在付款请求上附带一条信息，在打开付款请求时可以看到。注意：该消息不是通过Cashera网络传送。</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1751,7 +1751,7 @@ Address: %4
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>发送 Reddcoin</translation>
+        <translation>发送 Cashera</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1914,8 +1914,8 @@ Address: %4
         <translation>交易被拒绝！原因可能是钱包中的钱已经花掉了，比如您复制了wallet.dat钱包文件，然后用复制的钱包文件花掉了货币，但是在现在使用的钱包文件中没有记录。</translation>
     </message>
     <message>
-        <source>Warning: Invalid Reddcoin address</source>
-        <translation>警告：无效的Reddcoin地址</translation>
+        <source>Warning: Invalid Cashera address</source>
+        <translation>警告：无效的Cashera地址</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1969,8 +1969,8 @@ Address: %4
         <translation>这是笔正常的支付。</translation>
     </message>
     <message>
-        <source>The Reddcoin address to send the payment to (e.g. Rppgy8PHbBrknXfDmfEmqZXTKMR1yiwVtB)</source>
-        <translation>付款给这个Reddcoin地址  (例如 Rppgy8PHbBrknXfDmfEmqZXTKMR1yiwVtB)</translation>
+        <source>The Cashera address to send the payment to (e.g. Rppgy8PHbBrknXfDmfEmqZXTKMR1yiwVtB)</source>
+        <translation>付款给这个Cashera地址  (例如 Rppgy8PHbBrknXfDmfEmqZXTKMR1yiwVtB)</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1993,8 +1993,8 @@ Address: %4
         <translation>消息：</translation>
     </message>
     <message>
-        <source>A message that was attached to the reddcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reddcoin network.</source>
-        <translation>Reddcoin:URI 附带的信息，将会和交易一起存储，备查。 注意：该消息不会通过Reddcoin网络传输。</translation>
+        <source>A message that was attached to the Cashera: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Cashera network.</source>
+        <translation>Cashera:URI 附带的信息，将会和交易一起存储，备查。 注意：该消息不会通过Cashera网络传输。</translation>
     </message>
     <message>
         <source>This is a verified payment request.</source>
@@ -2020,8 +2020,8 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Reddcoin Core is shutting down...</source>
-        <translation>Reddcoin核心正在关机...</translation>
+        <source>Cashera Core is shutting down...</source>
+        <translation>Cashera核心正在关机...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2043,8 +2043,8 @@ Address: %4
         <translation>您可以用你的地址对消息进行签名，以证明您是该地址的所有人。注意不要对模棱两可的消息签名，以免遭受钓鱼式攻击。请确保消息内容准确的表达了您的真实意愿。</translation>
     </message>
     <message>
-        <source>The Reddcoin address to sign the message with (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
-        <translation>用于签名消息的Reddcoin地址（例如: RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX）</translation>
+        <source>The Cashera address to sign the message with (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
+        <translation>用于签名消息的Cashera地址（例如: RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX）</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2075,8 +2075,8 @@ Address: %4
         <translation>复制当前签名至剪切板</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation>签名消息，证明这个Reddcoin地址属于您</translation>
+        <source>Sign the message to prove you own this Cashera address</source>
+        <translation>签名消息，证明这个Cashera地址属于您</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2099,12 +2099,12 @@ Address: %4
         <translation>在下面输入签名地址，消息（请确保换行符、空格符、制表符等等一个不漏）和签名以验证消息。请确保签名信息准确，提防中间人攻击。</translation>
     </message>
     <message>
-        <source>The Reddcoin address the message was signed with (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
-        <translation>用于签名消息的Reddcoin地址(例如: RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
+        <source>The Cashera address the message was signed with (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
+        <translation>用于签名消息的Cashera地址(例如: RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation>验证消息，确保消息是由指定的 Reddcoin 地址签名过的。</translation>
+        <source>Verify the message to ensure it was signed with the specified Cashera address</source>
+        <translation>验证消息，确保消息是由指定的 Cashera 地址签名过的。</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2119,8 +2119,8 @@ Address: %4
         <translation>单击“签名消息“产生签名。</translation>
     </message>
     <message>
-        <source>Enter a Reddcoin address (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
-        <translation>请输入Reddcoin地址 (例如: RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
+        <source>Enter a Cashera address (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
+        <translation>请输入Cashera地址 (例如: RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -2174,12 +2174,12 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Reddcoin Core</source>
-        <translation>Reddcoin 核心</translation>
+        <source>Cashera Core</source>
+        <translation>Cashera 核心</translation>
     </message>
     <message>
-        <source>The Reddcoin Core developers</source>
-        <translation>Reddcoin Core 的开发者</translation>
+        <source>The Cashera Core developers</source>
+        <translation>Cashera Core 的开发者</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2431,7 +2431,7 @@ Address: %4
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>接收 Reddcoin 的时间</translation>
+        <translation>接收 Cashera 的时间</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
@@ -2600,7 +2600,7 @@ Address: %4
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>发送 Reddcoin</translation>
+        <translation>发送 Cashera</translation>
     </message>
 </context>
 <context>
@@ -2712,24 +2712,24 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=reddcoinrpc
+rpcuser=Casherarpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Reddcoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Cashera Alert" admin@foo.com
 </source>
         <translation>%s, 您必须在配置文件设置rpcpassword:
  %s
 建议您使用下面的随机密码:
-rpcuser=reddcoinrpc
+rpcuser=Casherarpc
 rpcpassword=%s
 (您无需记住此密码)
 用户名和密码 必! 须! 不一样。
 如果配置文件不存在，请自行建立一个只有所有者拥有只读权限的文件。
 推荐您开启提示通知以便收到错误通知，
-像这样: alertnotify=echo %%s | mail -s "Reddcoin Alert" admin@foo.com
+像这样: alertnotify=echo %%s | mail -s "Cashera Alert" admin@foo.com
 </translation>
     </message>
     <message>
@@ -2758,7 +2758,7 @@ rpcpassword=%s
     </message>
     <message>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>错误：该交易被拒绝！发生这种错误的原因可能是：钱包中的 Reddcoin 已经被用掉，有可能您复制了wallet.dat钱包文件，然后用复制的钱包文件支付了 Reddcoin，但是这个钱包文件中没有记录。</translation>
+        <translation>错误：该交易被拒绝！发生这种错误的原因可能是：钱包中的 Cashera 已经被用掉，有可能您复制了wallet.dat钱包文件，然后用复制的钱包文件支付了 Cashera，但是这个钱包文件中没有记录。</translation>
     </message>
     <message>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
@@ -2797,8 +2797,8 @@ rpcpassword=%s
         <translation>设置脚本验证的程序 (%u 到 %d, 0 = 自动, &lt;0 = 保留自由的核心, 默认值: %d)</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Reddcoin Core is probably already running.</source>
-        <translation>无法在本机绑定 %s 端口 .  Reddcoin 客户端软件可能已经在运行.</translation>
+        <source>Unable to bind to %s on this computer. Cashera Core is probably already running.</source>
+        <translation>无法在本机绑定 %s 端口 .  Cashera 客户端软件可能已经在运行.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
@@ -2809,8 +2809,8 @@ rpcpassword=%s
         <translation>警告：-paytxfee 交易费设置得太高了！每笔交易都将支付交易费。</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Reddcoin will not work properly.</source>
-        <translation>警告：请检查电脑的日期时间设置是否正确！时间错误可能会导致 Reddcoin 客户端运行异常。</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Cashera will not work properly.</source>
+        <translation>警告：请检查电脑的日期时间设置是否正确！时间错误可能会导致 Cashera 客户端运行异常。</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2993,8 +2993,8 @@ rpcpassword=%s
         <translation>不正确或没有找到起源区块。网络 datadir 错误？</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Reddcoin Core is shutting down.</source>
-        <translation>初始化完整性检查失败。Reddcoin 核心正在关机</translation>
+        <source>Initialization sanity check failed. Cashera Core is shutting down.</source>
+        <translation>初始化完整性检查失败。Cashera 核心正在关机</translation>
     </message>
     <message>
         <source>Invalid -onion address: '%s'</source>
@@ -3013,8 +3013,8 @@ rpcpassword=%s
         <translation>调试信息输出时，前面加上时间戳 (默认: 1)</translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the wiki.reddcoin.com for SSL setup instructions)</source>
-        <translation>RPC SSL选项：(见有关Reddcoin设置用于SSL说明的维基百科)</translation>
+        <source>RPC SSL options: (see the wiki.Cashera.com for SSL setup instructions)</source>
+        <translation>RPC SSL选项：(见有关Cashera设置用于SSL说明的维基百科)</translation>
     </message>
     <message>
         <source>RPC client options:</source>
@@ -3041,12 +3041,12 @@ rpcpassword=%s
         <translation>设置使用调用服务 RPC 的线程数量（默认：4）</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: reddcoin.conf)</source>
-        <translation>指定配置文件 (默认为 reddcoin.conf)</translation>
+        <source>Specify configuration file (default: Cashera.conf)</source>
+        <translation>指定配置文件 (默认为 Cashera.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: reddcoind.pid)</source>
-        <translation>指定 pid 文件 (默认为 reddcoind.pid)</translation>
+        <source>Specify pid file (default: Casherad.pid)</source>
+        <translation>指定 pid 文件 (默认为 Casherad.pid)</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
@@ -3101,8 +3101,8 @@ rpcpassword=%s
         <translation>从blk000??.dat文件导入数据块</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Reddcoin Core is probably already running.</source>
-        <translation>无法获取数据目录的 %s. Reddcoin 核心钱包可能已经在运行.</translation>
+        <source>Cannot obtain a lock on data directory %s. Cashera Core is probably already running.</source>
+        <translation>无法获取数据目录的 %s. Cashera 核心钱包可能已经在运行.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3197,28 +3197,28 @@ rpcpassword=%s
         <translation>随机每1个模拟测试&lt;n&gt;网络信息</translation>
     </message>
     <message>
-        <source>Reddcoin Core Daemon</source>
-        <translation>Reddcoin核心 守护程序</translation>
+        <source>Cashera Core Daemon</source>
+        <translation>Cashera核心 守护程序</translation>
     </message>
     <message>
-        <source>Reddcoin Core RPC client version</source>
-        <translation>Reddcoin核心钱包RPC客户端版本</translation>
+        <source>Cashera Core RPC client version</source>
+        <translation>Cashera核心钱包RPC客户端版本</translation>
     </message>
     <message>
         <source>Run a thread to flush wallet periodically (default: 1)</source>
         <translation>运行一个程序，定时清理钱包 (默认值：1)</translation>
     </message>
     <message>
-        <source>SSL options: (see the Reddcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL选项：(参见Reddcoin Wiki关于SSL设置栏目)</translation>
+        <source>SSL options: (see the Cashera Wiki for SSL setup instructions)</source>
+        <translation>SSL选项：(参见Cashera Wiki关于SSL设置栏目)</translation>
     </message>
     <message>
-        <source>Send command to Reddcoin Core</source>
-        <translation>发送指令到Reddcoin核心钱包</translation>
+        <source>Send command to Cashera Core</source>
+        <translation>发送指令到Cashera核心钱包</translation>
     </message>
     <message>
-        <source>Send command to reddcoin Core</source>
-        <translation>发送指令到Reddcoin核心钱包</translation>
+        <source>Send command to Cashera Core</source>
+        <translation>发送指令到Cashera核心钱包</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3253,8 +3253,8 @@ rpcpassword=%s
         <translation>设置连接超时时间(缺省：5000毫秒)</translation>
     </message>
     <message>
-        <source>Start Reddcoin Core Daemon</source>
-        <translation>开启Reddcoin核心钱包守护进程</translation>
+        <source>Start Cashera Core Daemon</source>
+        <translation>开启Cashera核心钱包守护进程</translation>
     </message>
     <message>
         <source>System error: </source>
@@ -3273,8 +3273,8 @@ rpcpassword=%s
         <translation>交易太大</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use reddcoin-cli):</source>
-        <translation>用法（不推荐，请使用 reddcoin-cli）：</translation>
+        <source>Usage (deprecated, use Cashera-cli):</source>
+        <translation>用法（不推荐，请使用 Cashera-cli）：</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 0)</source>
@@ -3374,12 +3374,12 @@ rpcpassword=%s
         <translation>wallet.dat 钱包文件加载出错：钱包损坏</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Reddcoin</source>
-        <translation>wallet.dat 钱包文件加载错误：请升级到最新版Reddcoin客户端</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Cashera</source>
+        <translation>wallet.dat 钱包文件加载错误：请升级到最新版Cashera客户端</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Reddcoin to complete</source>
-        <translation>钱包文件需要被重写：请退出并重新启动Reddcoin客户端</translation>
+        <source>Wallet needed to be rewritten: restart Cashera to complete</source>
+        <translation>钱包文件需要被重写：请退出并重新启动Cashera客户端</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

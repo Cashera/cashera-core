@@ -14,15 +14,15 @@ function clean_up {
    done
 }
 
-WORKINGDIR="/tmp/reddcoin"
+WORKINGDIR="/tmp/Cashera"
 TMPFILE="hashes.tmp"
 
 #this URL is used if a version number is not specified as an argument to the script
-SIGNATUREFILE="https://reddcoin.com/bin/0.9.2.1/SHA256SUMS.asc"
+SIGNATUREFILE="https://Cashera.com/bin/0.9.2.1/SHA256SUMS.asc"
 
 SIGNATUREFILENAME="SHA256SUMS.asc"
 RCSUBDIR="test/"
-BASEDIR="https://reddcoin.com/bin/"
+BASEDIR="https://Cashera.com/bin/"
 VERSIONPREFIX="bitcoin-"
 RCVERSIONSTRING="rc"
 

@@ -74,9 +74,9 @@ static const unsigned int MAX_BLOCKFILE_SIZE = 0x8000000; // 128 MiB
 static const unsigned int BLOCKFILE_CHUNK_SIZE = 0x1000000; // 16 MiB
 /** The pre-allocation chunk size for rev?????.dat files (since 0.8) */
 static const unsigned int UNDOFILE_CHUNK_SIZE = 0x100000; // 1 MiB
-/** Reddcoin: Dust Threshold: outputs below this value in satoshis are assessed an additional 1000 bytes per txout */
+/** Cashera: Dust Threshold: outputs below this value in satoshis are assessed an additional 1000 bytes per txout */
 static const int64_t DUST_THRESHOLD = 100000000; // 1 RDD
-/** Reddcoin: Dust Threshold Fee: outputs below the dust threshold incur a fee for relay */
+/** Cashera: Dust Threshold Fee: outputs below the dust threshold incur a fee for relay */
 static const int64_t DUST_THRESHOLD_FEE = 100000; // 0.001 RDD
 /** Coinbase transaction outputs can only be spent after this number of new blocks (network rule) */
 static const int COINBASE_MATURITY = 30;
@@ -102,7 +102,7 @@ static const unsigned int BLOCK_DOWNLOAD_WINDOW = 1024;
 static const unsigned int DATABASE_WRITE_INTERVAL = 3600;
 /** Maximum length of reject messages. */
 static const unsigned int MAX_REJECT_MESSAGE_LENGTH = 111;
-/** Start checking POW after block 44877 http://live.reddcoin.com/block/4253e7618d40aded00d11b664e874245ae74d55b976f4ac087d1a9db2f5f3cda */
+/** Start checking POW after block 44877 http://live.Cashera.com/block/4253e7618d40aded00d11b664e874245ae74d55b976f4ac087d1a9db2f5f3cda */
 static const int64_t CHECK_POW_FROM_NTIME = 1394048078;
 
 /** "reject" message codes **/
@@ -148,7 +148,7 @@ extern unsigned int nCoinCacheSize;
 extern CFeeRate minRelayTxFee;
 
 /**
- * Reddcoin PoSV
+ * Cashera PoSV
  */
 extern std::set<std::pair<COutPoint, unsigned int> > setStakeSeen;
 extern const int64_t nTargetSpacing;

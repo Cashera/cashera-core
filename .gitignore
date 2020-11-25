@@ -1,12 +1,12 @@
 *.tar.gz
 
 *.exe
-src/reddcoin
-src/reddcoind
-src/reddcoin-cli
-src/reddcoin-tx
-src/test/test_reddcoin
-src/qt/test/test_reddcoin-qt
+src/Cashera
+src/Casherad
+src/Cashera-cli
+src/Cashera-tx
+src/test/test_Cashera
+src/qt/test/test_Cashera-qt
 
 # autoreconf
 Makefile.in
@@ -81,12 +81,12 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-reddcoin-qt
-Reddcoin-Qt.app
+Cashera-qt
+Cashera-Qt.app
 
 # Unit-tests
 Makefile.test
-reddcoin-qt_test
+Cashera-qt_test
 src/test/buildenv.py
 
 # Resources cpp

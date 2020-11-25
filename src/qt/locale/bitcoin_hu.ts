@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Reddcoin Core</source>
-        <translation>A Reddcoin Core-ról</translation>
+        <source>About Cashera Core</source>
+        <translation>A Cashera Core-ról</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Reddcoin Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Reddcoin Core&lt;/b&gt; verzió</translation>
+        <source>&lt;b&gt;Cashera Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Cashera Core&lt;/b&gt; verzió</translation>
     </message>
     <message>
         <source>
@@ -28,8 +28,8 @@ Ez egy kísérleti program.
         <translation>Szerzői jog</translation>
     </message>
     <message>
-        <source>The Reddcoin Core developers</source>
-        <translation>A Reddcoin Core fejlesztői</translation>
+        <source>The Cashera Core developers</source>
+        <translation>A Cashera Core fejlesztői</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -103,12 +103,12 @@ Ez egy kísérleti program.
         <translation>Fogadó címek</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ezekről a címekről küldhetsz Reddcoint. Mindig ellenőrizd a fogadó címet és a fizetendő összeget, mielőtt elküldöd.</translation>
+        <source>These are your Cashera addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ezekről a címekről küldhetsz Casherat. Mindig ellenőrizd a fogadó címet és a fizetendő összeget, mielőtt elküldöd.</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ezekkel a címekkel fogadhatsz Reddcoint. Ajánlott minden tranzakcióhoz egy új fogadó címet használni.</translation>
+        <source>These are your Cashera addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ezekkel a címekkel fogadhatsz Casherat. Ajánlott minden tranzakcióhoz egy új fogadó címet használni.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -205,8 +205,8 @@ Ez egy kísérleti program.
         <translation>Biztosan kódolni akarod a tárcát?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
-        <translation>Figyelem: Ha kódolod a tárcát, és elveszíted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES REDDCOINODAT IS EL FOGOD VESZÍTENI!&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CasheraS&lt;/b&gt;!</source>
+        <translation>Figyelem: Ha kódolod a tárcát, és elveszíted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES CasheraODAT IS EL FOGOD VESZÍTENI!&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -225,8 +225,8 @@ Ez egy kísérleti program.
         <translation>Tárca kódolva</translation>
     </message>
     <message>
-        <source>Reddcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your reddcoins from being stolen by malware infecting your computer.</source>
-        <translation>Reddcoin will close now to finish the encryption process. Ne feledd, hogy a tárca titkosítása sem nyújt teljes védelmet az adathalász programok fertőzésével szemben.</translation>
+        <source>Cashera will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Casheras from being stolen by malware infecting your computer.</source>
+        <translation>Cashera will close now to finish the encryption process. Ne feledd, hogy a tárca titkosítása sem nyújt teljes védelmet az adathalász programok fertőzésével szemben.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -280,8 +280,8 @@ Ez egy kísérleti program.
         <translation>Tárca általános áttekintése</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
-        <translation>Fizetési kérelem (QR-kódot és "reddcoin:" URI azonosítót hoz létre)</translation>
+        <source>Request payments (generates QR codes and Cashera: URIs)</source>
+        <translation>Fizetési kérelem (QR-kódot és "Cashera:" URI azonosítót hoz létre)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -300,8 +300,8 @@ Ez egy kísérleti program.
         <translation>Kilépés</translation>
     </message>
     <message>
-        <source>Show information about Reddcoin</source>
-        <translation>Információk a Reddcoinról</translation>
+        <source>Show information about Cashera</source>
+        <translation>Információk a Casheraról</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -356,12 +356,12 @@ Ez egy kísérleti program.
         <translation>&amp;URI Megnyitása</translation>
     </message>
     <message>
-        <source>Open a reddcoin: URI or payment request</source>
-        <translation>"reddcoin:" URI azonosító vagy fizetési kérelem megnyitása</translation>
+        <source>Open a Cashera: URI or payment request</source>
+        <translation>"Cashera:" URI azonosító vagy fizetési kérelem megnyitása</translation>
     </message>
     <message>
-        <source>Reddcoin Core client</source>
-        <translation>Reddcoin Core kliens</translation>
+        <source>Cashera Core client</source>
+        <translation>Cashera Core kliens</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -372,12 +372,12 @@ Ez egy kísérleti program.
         <translation>A blokkok lemezen történő ujraindexelése...</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
+        <source>Send coins to a Cashera address</source>
         <translation>Érmék küldése megadott címre</translation>
     </message>
     <message>
-        <source>Modify configuration options for Reddcoin</source>
-        <translation>Reddcoin konfigurációs opciók</translation>
+        <source>Modify configuration options for Cashera</source>
+        <translation>Cashera konfigurációs opciók</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -400,8 +400,8 @@ Ez egy kísérleti program.
         <translation>Üzenet &amp;valódiságának ellenőrzése</translation>
     </message>
     <message>
-        <source>Reddcoin</source>
-        <translation>Reddcoin</translation>
+        <source>Cashera</source>
+        <translation>Cashera</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -424,12 +424,12 @@ Ez egy kísérleti program.
         <translation>A pénztárcájához tartozó privát kulcsok titkosítása</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation>Üzenet aláírása a Reddcoin címmel, amivel bizonyítja, hogy a cím az ön tulajdona.</translation>
+        <source>Sign messages with your Cashera addresses to prove you own them</source>
+        <translation>Üzenet aláírása a Cashera címmel, amivel bizonyítja, hogy a cím az ön tulajdona.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation>Annak ellenőrzése, hogy az üzenetek valóban a megjelölt Reddcoin címekkel vannak-e alaírva</translation>
+        <source>Verify messages to ensure they were signed with specified Cashera addresses</source>
+        <translation>Annak ellenőrzése, hogy az üzenetek valóban a megjelölt Cashera címekkel vannak-e alaírva</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -452,12 +452,12 @@ Ez egy kísérleti program.
         <translation>[teszthálózat]</translation>
     </message>
     <message>
-        <source>Reddcoin Core</source>
-        <translation>Reddcoin Mag</translation>
+        <source>Cashera Core</source>
+        <translation>Cashera Mag</translation>
     </message>
     <message>
-        <source>&amp;About Reddcoin Core</source>
-        <translation>&amp;A Reddcoin Core-ról</translation>
+        <source>&amp;About Cashera Core</source>
+        <translation>&amp;A Cashera Core-ról</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -472,12 +472,12 @@ Ez egy kísérleti program.
         <translation>Paran&amp;cssor kapcsolók</translation>
     </message>
     <message>
-        <source>Show the Reddcoin Core help message to get a list with possible Reddcoin command-line options</source>
-        <translation>A Reddcoin Core súgóüzenet megjelenítése a Reddcoin lehetséges parancssori kapcsolóival.</translation>
+        <source>Show the Cashera Core help message to get a list with possible Cashera command-line options</source>
+        <translation>A Cashera Core súgóüzenet megjelenítése a Cashera lehetséges parancssori kapcsolóival.</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network</source>
-        <translation><numerusform>%n aktív kapcsolat a Reddcoin hálózathoz</numerusform><numerusform>%n aktív kapcsolat a Reddcoin hálózathoz</numerusform></translation>
+        <source>%n active connection(s) to Cashera network</source>
+        <translation><numerusform>%n aktív kapcsolat a Cashera hálózathoz</numerusform><numerusform>%n aktív kapcsolat a Cashera hálózathoz</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -568,8 +568,8 @@ Cím: %4
         <translation>Tárca &lt;b&gt;kódolva&lt;/b&gt; és jelenleg &lt;b&gt;zárva&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Reddcoin can no longer continue safely and will quit.</source>
-        <translation>Végzetes hiba történt. Reddcoin már nem fut tovább, és kilép.</translation>
+        <source>A fatal error occurred. Cashera can no longer continue safely and will quit.</source>
+        <translation>Végzetes hiba történt. Cashera már nem fut tovább, és kilép.</translation>
     </message>
 </context>
 <context>
@@ -841,8 +841,8 @@ Cím: %4
         <translation>A megadott "%1" cím már szerepel a címjegyzékben.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
-        <translation>A megadott "%1" cím nem egy érvényes Reddcoin-cím.</translation>
+        <source>The entered address "%1" is not a valid Cashera address.</source>
+        <translation>A megadott "%1" cím nem egy érvényes Cashera-cím.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -875,12 +875,12 @@ Cím: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Reddcoin Core - Command-line options</source>
-        <translation>Reddcoin Core - Parancssoros opciók</translation>
+        <source>Cashera Core - Command-line options</source>
+        <translation>Cashera Core - Parancssoros opciók</translation>
     </message>
     <message>
-        <source>Reddcoin Core</source>
-        <translation>Reddcoin Mag</translation>
+        <source>Cashera Core</source>
+        <translation>Cashera Mag</translation>
     </message>
     <message>
         <source>version</source>
@@ -926,16 +926,16 @@ Cím: %4
         <translation>Üdvözöljük</translation>
     </message>
     <message>
-        <source>Welcome to Reddcoin Core.</source>
-        <translation>Üdvözlünk a Reddcoin Core-ban.</translation>
+        <source>Welcome to Cashera Core.</source>
+        <translation>Üdvözlünk a Cashera Core-ban.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Reddcoin Core will store its data.</source>
-        <translation>A program első elindításánál kiválaszthatja, hogy a Reddcoin Core hol tárolja az általa használt adatokat.</translation>
+        <source>As this is the first time the program is launched, you can choose where Cashera Core will store its data.</source>
+        <translation>A program első elindításánál kiválaszthatja, hogy a Cashera Core hol tárolja az általa használt adatokat.</translation>
     </message>
     <message>
-        <source>Reddcoin Core will download and store a copy of the Reddcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>A Reddcoin Core le fogja tölteni és tárolni fogja a Reddcoin blokklánc egy másolatát. Legalább %1GB adat lesz tárolva ebben a mappában, és ez folyamatosan nőni fog. A tárca szintén itt lesz tárolva.</translation>
+        <source>Cashera Core will download and store a copy of the Cashera block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>A Cashera Core le fogja tölteni és tárolni fogja a Cashera blokklánc egy másolatát. Legalább %1GB adat lesz tárolva ebben a mappában, és ez folyamatosan nőni fog. A tárca szintén itt lesz tárolva.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -946,8 +946,8 @@ Cím: %4
         <translation>Saját adatkönyvtár használata:</translation>
     </message>
     <message>
-        <source>Reddcoin Core</source>
-        <translation>Reddcoin Mag</translation>
+        <source>Cashera Core</source>
+        <translation>Cashera Mag</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" can not be created.</source>
@@ -1008,11 +1008,11 @@ Cím: %4
         <translation>Tranzakciós &amp;díj fizetése</translation>
     </message>
     <message>
-        <source>Automatically start Reddcoin after logging in to the system.</source>
-        <translation>Induljon el a Reddcoin a számítógép bekapcsolásakor</translation>
+        <source>Automatically start Cashera after logging in to the system.</source>
+        <translation>Induljon el a Cashera a számítógép bekapcsolásakor</translation>
     </message>
     <message>
-        <source>&amp;Start Reddcoin on system login</source>
+        <source>&amp;Start Cashera on system login</source>
         <translation>&amp;Induljon el a számítógép bekapcsolásakor</translation>
     </message>
     <message>
@@ -1024,8 +1024,8 @@ Cím: %4
         <translation>MB</translation>
     </message>
     <message>
-        <source>Connect to the Reddcoin network through a SOCKS proxy.</source>
-        <translation>Csatlakozás a Reddcoin hálózatához SOCKS proxyn keresztül</translation>
+        <source>Connect to the Cashera network through a SOCKS proxy.</source>
+        <translation>Csatlakozás a Cashera hálózatához SOCKS proxyn keresztül</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS proxy (default proxy):</source>
@@ -1060,8 +1060,8 @@ Cím: %4
         <translation>Szakértő</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>A Reddcoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <source>Automatically open the Cashera client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>A Cashera-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1116,8 +1116,8 @@ Cím: %4
         <translation>Felhasználófelület nye&amp;lve:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Reddcoin.</source>
-        <translation>Itt beállíthatod a kezelőfelület nyelvét. A beállítás a Reddcoin újraindítása után lép érvénybe.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Cashera.</source>
+        <translation>Itt beállíthatod a kezelőfelület nyelvét. A beállítás a Cashera újraindítása után lép érvénybe.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1128,8 +1128,8 @@ Cím: %4
         <translation>Válaszd ki az interfészen és érmék küldésekor megjelenítendő alapértelmezett alegységet.</translation>
     </message>
     <message>
-        <source>Whether to show Reddcoin addresses in the transaction list or not.</source>
-        <translation>Mutassa-e a Reddcoin címeket a tranzakciólistában.</translation>
+        <source>Whether to show Cashera addresses in the transaction list or not.</source>
+        <translation>Mutassa-e a Cashera címeket a tranzakciólistában.</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
@@ -1175,8 +1175,8 @@ Cím: %4
         <translation>Űrlap</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Reddcoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Cashera network after a connection is established, but this process has not completed yet.</source>
+        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Cashera hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1230,19 +1230,19 @@ Cím: %4
         <translation>URI kezelés</translation>
     </message>
     <message>
-        <source>Cannot start reddcoin: click-to-pay handler</source>
-        <translation>A reddcoint nem lehet elindítani: click-to-pay handler</translation>
+        <source>Cannot start Cashera: click-to-pay handler</source>
+        <translation>A Casherat nem lehet elindítani: click-to-pay handler</translation>
     </message>
     </context>
 <context>
     <name>QObject</name>
     <message>
-        <source>Reddcoin Core</source>
-        <translation>Reddcoin Mag</translation>
+        <source>Cashera Core</source>
+        <translation>Cashera Mag</translation>
     </message>
     <message>
-        <source>Enter a Reddcoin address (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
-        <translation>Ad meg egy Reddcoin címet (pl: RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
+        <source>Enter a Cashera address (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
+        <translation>Ad meg egy Cashera címet (pl: RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
     </message>
 </context>
 <context>
@@ -1363,8 +1363,8 @@ Cím: %4
         <translation>Konzol törlése</translation>
     </message>
     <message>
-        <source>Welcome to the Reddcoin RPC console.</source>
-        <translation>Üdv a Reddcoin RPC konzoljában!</translation>
+        <source>Welcome to the Cashera RPC console.</source>
+        <translation>Üdv a Cashera RPC konzoljában!</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1668,7 +1668,7 @@ Cím: %4
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation>Nincs ennyi reddcoin az egyenlegeden.</translation>
+        <translation>Nincs ennyi Cashera az egyenlegeden.</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
@@ -1679,8 +1679,8 @@ Cím: %4
         <translation>Többször szerepel ugyanaz a cím. Egy küldési műveletben egy címre csak egyszer lehet küldeni.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Reddcoin address</source>
-        <translation>Figyelmeztetés: Érvénytelen Reddcoin cím</translation>
+        <source>Warning: Invalid Cashera address</source>
+        <translation>Figyelmeztetés: Érvénytelen Cashera cím</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1765,8 +1765,8 @@ Cím: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Reddcoin Core is shutting down...</source>
-        <translation>A Reddcoin Core leáll...</translation>
+        <source>Cashera Core is shutting down...</source>
+        <translation>A Cashera Core leáll...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1788,8 +1788,8 @@ Cím: %4
         <translation>Aláírhat a címeivel üzeneteket, amivel bizonyíthatja, hogy a címek az önéi. Vigyázzon, hogy ne írjon alá semmi félreérthetőt, mivel a phising támadásokkal megpróbálhatják becsapni, hogy az azonosságát átírja másokra. Csak olyan részletes állításokat írjon alá, amivel egyetért.</translation>
     </message>
     <message>
-        <source>The Reddcoin address to sign the message with (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
-        <translation>Adj meg egy Reddcoin-címet (pl.: RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
+        <source>The Cashera address to sign the message with (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
+        <translation>Adj meg egy Cashera-címet (pl.: RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1840,8 +1840,8 @@ Cím: %4
         <translation>&amp;Üzenet ellenőrzése</translation>
     </message>
     <message>
-        <source>Enter a Reddcoin address (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
-        <translation>Ad meg egy Reddcoin címet (pl: RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
+        <source>Enter a Cashera address (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
+        <translation>Ad meg egy Cashera címet (pl: RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -1883,12 +1883,12 @@ Cím: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Reddcoin Core</source>
-        <translation>Reddcoin Mag</translation>
+        <source>Cashera Core</source>
+        <translation>Cashera Mag</translation>
     </message>
     <message>
-        <source>The Reddcoin Core developers</source>
-        <translation>A Reddcoin Core fejlesztői</translation>
+        <source>The Cashera Core developers</source>
+        <translation>A Cashera Core fejlesztői</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2366,16 +2366,16 @@ Cím: %4
         <translation>Parancs, amit akkor hajt végre, amikor egy tárca-tranzakció megváltozik (%s a parancsban lecserélődik a blokk TxID-re)</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Reddcoin Core is probably already running.</source>
-        <translation>A %s nem elérhető ezen a gépen. A Reddcoin valószínűleg fut már.</translation>
+        <source>Unable to bind to %s on this computer. Cashera Core is probably already running.</source>
+        <translation>A %s nem elérhető ezen a gépen. A Cashera valószínűleg fut már.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Figyelem: a -paytxfee nagyon magas.  Ennyi tranzakciós díjat fogsz fizetni, ha elküldöd a tranzakciót.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Reddcoin will not work properly.</source>
-        <translation>Figyelem: Ellenőrizd, hogy helyesen van-e beállítva a gépeden a dátum és az idő.  A Reddcoin nem fog megfelelően működni, ha rosszul van beállítvaaz órád.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Cashera will not work properly.</source>
+        <translation>Figyelem: Ellenőrizd, hogy helyesen van-e beállítva a gépeden a dátum és az idő.  A Cashera nem fog megfelelően működni, ha rosszul van beállítvaaz órád.</translation>
     </message>
     <message>
         <source>(default: 1)</source>
@@ -2498,12 +2498,12 @@ Cím: %4
         <translation>Blokklánc index újraalkotása az alábbi blk000??.dat fájlokból</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: reddcoin.conf)</source>
-        <translation>Konfigurációs fájl (alapértelmezett: reddcoin.conf)</translation>
+        <source>Specify configuration file (default: Cashera.conf)</source>
+        <translation>Konfigurációs fájl (alapértelmezett: Cashera.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: reddcoind.pid)</source>
-        <translation>pid-fájl (alapértelmezett: reddcoind.pid)</translation>
+        <source>Specify pid file (default: Casherad.pid)</source>
+        <translation>pid-fájl (alapértelmezett: Casherad.pid)</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -2550,16 +2550,16 @@ Cím: %4
         <translation>Csak a &lt;net&gt; hálózat csomópontjaihoz kapcsolódjon (IPv4, IPv6 vagy Tor)</translation>
     </message>
     <message>
-        <source>Reddcoin Core Daemon</source>
-        <translation>Reddcoin Core Daemon</translation>
+        <source>Cashera Core Daemon</source>
+        <translation>Cashera Core Daemon</translation>
     </message>
     <message>
-        <source>Reddcoin Core RPC client version</source>
-        <translation>Reddcoin Core RPC kliens verzió</translation>
+        <source>Cashera Core RPC client version</source>
+        <translation>Cashera Core RPC kliens verzió</translation>
     </message>
     <message>
-        <source>SSL options: (see the Reddcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL-opciók: (lásd a Reddcoin Wiki SSL-beállítási instrukcióit)</translation>
+        <source>SSL options: (see the Cashera Wiki for SSL setup instructions)</source>
+        <translation>SSL-opciók: (lásd a Cashera Wiki SSL-beállítási instrukcióit)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -2668,12 +2668,12 @@ Cím: %4
         <translation>Hiba a wallet.dat betöltése közben: meghibásodott tárca</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Reddcoin</source>
-        <translation>Hiba a wallet.dat betöltése közben: ehhez a tárcához újabb verziójú Reddcoin-kliens szükséges</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Cashera</source>
+        <translation>Hiba a wallet.dat betöltése közben: ehhez a tárcához újabb verziójú Cashera-kliens szükséges</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Reddcoin to complete</source>
-        <translation>A Tárca újraírása szükséges: Indítsa újra a teljesen a Reddcoin-t</translation>
+        <source>Wallet needed to be rewritten: restart Cashera to complete</source>
+        <translation>A Tárca újraírása szükséges: Indítsa újra a teljesen a Cashera-t</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
@@ -2709,7 +2709,7 @@ Cím: %4
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Nincs elég reddcoinod.</translation>
+        <translation>Nincs elég Casheraod.</translation>
     </message>
     <message>
         <source>Loading block index...</source>

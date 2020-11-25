@@ -1,23 +1,23 @@
 # /etc/conf.d/bitcoind: config file for /etc/init.d/bitcoind
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/reddcoin/reddcoin.conf"
+#BITCOIND_CONFIGFILE="/etc/Cashera/Cashera.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/reddcoind"
+#BITCOIND_PIDDIR="/var/run/Casherad"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/reddcoind.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/Casherad.pid"
 
 # Where to write bitcoind data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/reddcoind"
+#BITCOIND_DATADIR="/var/lib/Casherad"
 
 # User and group to own bitcoind process
-#BITCOIND_USER="reddcoin"
-#BITCOIND_GROUP="reddcoin"
+#BITCOIND_USER="Cashera"
+#BITCOIND_GROUP="Cashera"
 
 # Path to bitcoind executable
-#BITCOIND_BIN="/usr/bin/reddcoind"
+#BITCOIND_BIN="/usr/bin/Casherad"
 
 # Nice value to run bitcoind under
 #BITCOIND_NICE=0

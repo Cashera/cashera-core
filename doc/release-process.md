@@ -29,11 +29,11 @@ Release Process
 
 ###perform gitian builds
 
- From a directory containing the reddcoin source, gitian-builder and gitian.sigs
+ From a directory containing the Cashera source, gitian-builder and gitian.sigs
   
 	export SIGNER=(your gitian key, ie bluematt, sipa, etc)
 	export VERSION=(new version, e.g. 0.8.0)
-	pushd ./reddcoin
+	pushd ./Cashera
 	git checkout v${VERSION}
 	popd
 	pushd ./gitian-builder
@@ -58,25 +58,25 @@ Release Process
 
   Only missing files will be fetched, so this is safe to re-run for each build.
 
-###Build Reddcoin Core for Linux, Windows, and OS X:
+###Build Cashera Core for Linux, Windows, and OS X:
   
-	./bin/gbuild --commit reddcoin=v${VERSION} ../bitcoin/contrib/gitian-descriptors/gitian-linux.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../reddcoin/contrib/gitian-descriptors/gitian-linux.yml
-	mv build/out/reddcoin-*.tar.gz build/out/src/bitcoin-*.tar.gz ../
-	./bin/gbuild --commit reddcoin=v${VERSION} ../bitcoin/contrib/gitian-descriptors/gitian-win.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs/ ../reddcoin/contrib/gitian-descriptors/gitian-win.yml
-	mv build/out/reddcoin-*.zip build/out/bitcoin-*.exe ../
-	./bin/gbuild --commit reddcoin=v${VERSION} ../bitcoin/contrib/gitian-descriptors/gitian-osx.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../reddcoin/contrib/gitian-descriptors/gitian-osx.yml
-	mv build/out/reddcoin-*-unsigned.tar.gz inputs
-	mv build/out/reddcoin-*.tar.gz build/out/reddcoin-*.dmg ../
+	./bin/gbuild --commit Cashera=v${VERSION} ../bitcoin/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../Cashera/contrib/gitian-descriptors/gitian-linux.yml
+	mv build/out/Cashera-*.tar.gz build/out/src/bitcoin-*.tar.gz ../
+	./bin/gbuild --commit Cashera=v${VERSION} ../bitcoin/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win --destination ../gitian.sigs/ ../Cashera/contrib/gitian-descriptors/gitian-win.yml
+	mv build/out/Cashera-*.zip build/out/bitcoin-*.exe ../
+	./bin/gbuild --commit Cashera=v${VERSION} ../bitcoin/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../Cashera/contrib/gitian-descriptors/gitian-osx.yml
+	mv build/out/Cashera-*-unsigned.tar.gz inputs
+	mv build/out/Cashera-*.tar.gz build/out/Cashera-*.dmg ../
 	popd
   Build output expected:
 
-  1. source tarball (reddcoin-${VERSION}.tar.gz)
-  2. linux 32-bit and 64-bit binaries dist tarballs (reddcoin-${VERSION}-linux[32|64].tar.gz)
-  3. windows 32-bit and 64-bit installers and dist zips (reddcoin-${VERSION}-win[32|64]-setup.exe, bitcoin-${VERSION}-win[32|64].zip)
-  4. OSX unsigned installer (reddcoin-${VERSION}-osx-unsigned.dmg)
+  1. source tarball (Cashera-${VERSION}.tar.gz)
+  2. linux 32-bit and 64-bit binaries dist tarballs (Cashera-${VERSION}-linux[32|64].tar.gz)
+  3. windows 32-bit and 64-bit installers and dist zips (Cashera-${VERSION}-win[32|64]-setup.exe, bitcoin-${VERSION}-win[32|64].zip)
+  4. OSX unsigned installer (Cashera-${VERSION}-osx-unsigned.dmg)
   5. Gitian signatures (in gitian.sigs/${VERSION}-<linux|win|osx-unsigned>/(your gitian key)/
 
 ###Next steps:
@@ -100,9 +100,9 @@ Commit your signature to gitian.sigs:
 	pushd ./gitian-builder
 	# Fetch the signature as instructed by John
 	cp signature.tar.gz inputs/
-	./bin/gbuild -i ../reddcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../reddcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-	mv build/out/reddcoin-${VERSION}-osx.dmg ../
+	./bin/gbuild -i ../Cashera/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../Cashera/contrib/gitian-descriptors/gitian-osx-signer.yml
+	mv build/out/Cashera-${VERSION}-osx.dmg ../
 	popd
 
 Commit your signature for the signed OSX binary:
@@ -133,18 +133,18 @@ rm SHA256SUMS
 
 - Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to github release
 
-- Update reddcoin.com version
+- Update Cashera.com version
 - Upload gitian zips to github releases
 
 - Announce the release:
 
-  - Release sticky on reddcointalk: https://www.reddcointalk.org/category/1/announcements
+  - Release sticky on Casheratalk: https://www.Casheratalk.org/category/1/announcements
 
   - Reddheads mailing list
 
-  - Update title of #reddcoin on Freenode IRC
+  - Update title of #Cashera on Freenode IRC
 
-  - Reddit /r/Reddcoin,
+  - Reddit /r/Cashera,
 
 - Add release notes for the new version to the directory `doc/release-notes` in git master
 

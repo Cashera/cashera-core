@@ -32,7 +32,7 @@ using namespace boost;
 using namespace std;
 
 #if defined(NDEBUG)
-# error "Reddcoin cannot be compiled without assertions."
+# error "Cashera cannot be compiled without assertions."
 #endif
 
 /**
@@ -75,7 +75,7 @@ static void CheckBlockIndex();
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Reddcoin Signed Message:\n";
+const string strMessageMagic = "Cashera Signed Message:\n";
 
 // PoSV
 set<pair<COutPoint, unsigned int> > setStakeSeen;
@@ -947,7 +947,7 @@ CAmount GetMinRelayFee(const CTransaction& tx, unsigned int nBytes, bool fAllowF
             return 0;
     }
 
-    // Reddcoin
+    // Cashera
     // To limit dust spam, add 1000 byte penalty for each output less than DUST_THRESHOLD
     BOOST_FOREACH(const CTxOut& txout, tx.vout)
         if (txout.nValue < DUST_THRESHOLD)
@@ -1753,7 +1753,7 @@ bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, unsigne
 static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck() {
-    RenameThread("reddcoin-scriptch");
+    RenameThread("Cashera-scriptch");
     scriptcheckqueue.Thread();
 }
 
@@ -2952,7 +2952,7 @@ bool AcceptBlock(CBlock& block, CValidationState& state, CBlockIndex** ppindex, 
                              REJECT_INVALID, "bad-txns-nonfinal");
         }
         // Enforce block.nVersion=2 rule that the coinbase starts with serialized block height
-        // Reddcoin did not enable this BIP 34
+        // Cashera did not enable this BIP 34
         // TBD
         /*
         if (block.nVersion >= 3)

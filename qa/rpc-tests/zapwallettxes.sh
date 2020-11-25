@@ -8,14 +8,14 @@
 if [ $# -lt 1 ]; then
         echo "Usage: $0 path_to_binaries"
         echo "e.g. $0 ../../src"
-        echo "Env vars REDDCOIND and REDDCOINCLI may be used to specify the exact binaries used"
+        echo "Env vars CasheraD and CasheraCLI may be used to specify the exact binaries used"
         exit 1
 fi
 
 set -f
 
-BITCOIND=${REDDCOIND:-${1}/reddcoind}
-CLI=${REDDCOINCLI:-${1}/reddcoin-cli}
+BITCOIND=${CasheraD:-${1}/Casherad}
+CLI=${CasheraCLI:-${1}/Cashera-cli}
 
 DIR="${BASH_SOURCE%/*}"
 SENDANDWAIT="${DIR}/send.sh"

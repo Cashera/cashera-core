@@ -61,14 +61,14 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += reddcoind
+  bin_PROGRAMS += Casherad
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += reddcoin-cli
+  bin_PROGRAMS += Cashera-cli
 endif
 
-bin_PROGRAMS += reddcoin-tx
+bin_PROGRAMS += Cashera-tx
 
 .PHONY: FORCE
 # bitcoin core #
@@ -163,7 +163,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between reddcoind and reddcoin-qt
+# server: shared between Casherad and Cashera-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -296,7 +296,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between reddcoin-cli and reddcoin-qt
+# cli: shared between Cashera-cli and Cashera-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -305,8 +305,8 @@ libbitcoin_cli_a_SOURCES = \
 nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
-# reddcoind binary #
-reddcoind_LDADD = \
+# Casherad binary #
+Casherad_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -317,35 +317,35 @@ reddcoind_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_WALLET
-reddcoind_LDADD += libbitcoin_wallet.a libbitcoin_server_wallet.a
+Casherad_LDADD += libbitcoin_wallet.a libbitcoin_server_wallet.a
 endif
-reddcoind_SOURCES = bitcoind.cpp
+Casherad_SOURCES = bitcoind.cpp
 #
 
 if TARGET_WINDOWS
-reddcoind_SOURCES += bitcoind-res.rc
+Casherad_SOURCES += bitcoind-res.rc
 endif
 
-reddcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-reddcoind_CPPFLAGS = $(BITCOIN_INCLUDES)
-reddcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+Casherad_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+Casherad_CPPFLAGS = $(BITCOIN_INCLUDES)
+Casherad_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
-# reddcoin-cli binary #
-reddcoin_cli_LDADD = \
+# Cashera-cli binary #
+Cashera_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
   $(SSL_LIBS) \
   $(CRYPTO_LIBS)
 
-reddcoin_cli_SOURCES = \
+Cashera_cli_SOURCES = \
   bitcoin-cli.cpp
 
-reddcoin_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+Cashera_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
 # bitcoin-tx binary #
-reddcoin_tx_LDADD = \
+Cashera_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -354,15 +354,15 @@ reddcoin_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-reddcoin_tx_SOURCES = bitcoin-tx.cpp
-reddcoin_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+Cashera_tx_SOURCES = bitcoin-tx.cpp
+Cashera_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-reddcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+Cashera_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-reddcoin_cli_SOURCES += bitcoin-cli-res.rc
+Cashera_cli_SOURCES += bitcoin-cli-res.rc
 endif
-reddcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+Cashera_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

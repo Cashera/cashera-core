@@ -1,5 +1,5 @@
-Building Reddcoin
+Building Cashera
 
-See doc/build-*.md for instructions on building reddcoind,
+See doc/build-*.md for instructions on building Casherad,
 the intended-for-services, no-graphical-interface, reference
-implementation of Reddcoin.
+implementation of Cashera.

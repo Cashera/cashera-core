@@ -85,13 +85,13 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your Cashera addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your Cashera addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Reddcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>These are your Reddcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
+        <source>These are your Cashera addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>These are your Cashera addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -216,8 +216,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CasheraS&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CasheraS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -248,8 +248,8 @@
     </message>
     <message>
         <location line="+84"/>
-        <source>Reddcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your reddcoins from being stolen by malware infecting your computer.</source>
-        <translation>Reddcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your reddcoins from being stolen by malware infecting your computer.</translation>
+        <source>Cashera will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Casheras from being stolen by malware infecting your computer.</source>
+        <translation>Cashera will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Casheras from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -327,8 +327,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
-        <translation>Request payments (generates QR codes and reddcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and Cashera: URIs)</source>
+        <translation>Request payments (generates QR codes and Cashera: URIs)</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -418,13 +418,13 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Open a reddcoin: URI or payment request</source>
-        <translation>Open a reddcoin: URI or payment request</translation>
+        <source>Open a Cashera: URI or payment request</source>
+        <translation>Open a Cashera: URI or payment request</translation>
     </message>
     <message>
         <location line="+175"/>
-        <source>Reddcoin Core client</source>
-        <translation>Reddcoin Core client</translation>
+        <source>Cashera Core client</source>
+        <translation>Cashera Core client</translation>
     </message>
     <message>
         <location line="+157"/>
@@ -492,13 +492,13 @@
     </message>
     <message>
         <location line="-782"/>
-        <source>Send coins to a Reddcoin address</source>
-        <translation>Send coins to a Reddcoin address</translation>
+        <source>Send coins to a Cashera address</source>
+        <translation>Send coins to a Cashera address</translation>
     </message>
     <message>
         <location line="+48"/>
-        <source>Modify configuration options for Reddcoin</source>
-        <translation>Modify configuration options for Reddcoin</translation>
+        <source>Modify configuration options for Cashera</source>
+        <translation>Modify configuration options for Cashera</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -527,8 +527,8 @@
     </message>
     <message>
         <location line="+441"/>
-        <source>Reddcoin</source>
-        <translation>Reddcoin</translation>
+        <source>Cashera</source>
+        <translation>Cashera</translation>
     </message>
     <message>
         <location line="-654"/>
@@ -557,13 +557,13 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation>Sign messages with your Reddcoin addresses to prove you own them</translation>
+        <source>Sign messages with your Cashera addresses to prove you own them</source>
+        <translation>Sign messages with your Cashera addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Reddcoin addresses</translation>
+        <source>Verify messages to ensure they were signed with specified Cashera addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Cashera addresses</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -587,17 +587,17 @@
     </message>
     <message>
         <location line="-313"/>
-        <source>Reddcoin Core</source>
-        <translation>Reddcoin Core</translation>
+        <source>Cashera Core</source>
+        <translation>Cashera Core</translation>
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Reddcoin Core</source>
-        <translation>&amp;About Reddcoin Core</translation>
+        <source>&amp;About Cashera Core</source>
+        <translation>&amp;About Cashera Core</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Reddcoin Core</source>
+        <source>Show information about Cashera Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -617,15 +617,15 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Show the Reddcoin Core help message to get a list with possible Reddcoin command-line options</source>
-        <translation>Show the Reddcoin Core help message to get a list with possible Reddcoin command-line options</translation>
+        <source>Show the Cashera Core help message to get a list with possible Cashera command-line options</source>
+        <translation>Show the Cashera Core help message to get a list with possible Cashera command-line options</translation>
     </message>
     <message numerus="yes">
         <location line="+311"/>
-        <source>%n active connection(s) to Reddcoin network</source>
+        <source>%n active connection(s) to Cashera network</source>
         <translation>
-            <numerusform>%n active connection to Reddcoin network</numerusform>
-            <numerusform>%n active connections to Reddcoin network</numerusform>
+            <numerusform>%n active connection to Cashera network</numerusform>
+            <numerusform>%n active connections to Cashera network</numerusform>
         </translation>
     </message>
     <message>
@@ -1090,8 +1090,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Reddcoin address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Reddcoin address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Cashera address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid Cashera address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1136,8 +1136,8 @@ Address: %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+31"/>
-        <source>Reddcoin Core</source>
-        <translation>Reddcoin Core</translation>
+        <source>Cashera Core</source>
+        <translation>Cashera Core</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1152,8 +1152,8 @@ Address: %4
     </message>
     <message>
         <location line="+5"/>
-        <source>About Reddcoin Core</source>
-        <translation type="unfinished">About Reddcoin Core</translation>
+        <source>About Cashera Core</source>
+        <translation type="unfinished">About Cashera Core</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1210,18 +1210,18 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Reddcoin Core.</source>
-        <translation>Welcome to Reddcoin Core.</translation>
+        <source>Welcome to Cashera Core.</source>
+        <translation>Welcome to Cashera Core.</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Reddcoin Core will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where Reddcoin Core will store its data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Cashera Core will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where Cashera Core will store its data.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Reddcoin Core will download and store a copy of the Reddcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Reddcoin Core will download and store a copy of the Reddcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>Cashera Core will download and store a copy of the Cashera block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Cashera Core will download and store a copy of the Cashera block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1235,8 +1235,8 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+82"/>
-        <source>Reddcoin Core</source>
-        <translation>Reddcoin Core</translation>
+        <source>Cashera Core</source>
+        <translation>Cashera Core</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1307,13 +1307,13 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically start Reddcoin after logging in to the system.</source>
-        <translation>Automatically start Reddcoin after logging in to the system.</translation>
+        <source>Automatically start Cashera after logging in to the system.</source>
+        <translation>Automatically start Cashera after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Reddcoin on system login</source>
-        <translation>&amp;Start Reddcoin on system login</translation>
+        <source>&amp;Start Cashera on system login</source>
+        <translation>&amp;Start Cashera on system login</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1408,8 +1408,8 @@ Address: %4
     </message>
     <message>
         <location line="+30"/>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Cashera client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Cashera client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1418,7 +1418,7 @@ Address: %4
     </message>
     <message>
         <location line="+17"/>
-        <source>Connect to the Reddcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the Cashera network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1478,8 +1478,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Reddcoin.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Reddcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Cashera.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Cashera.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1553,8 +1553,8 @@ Address: %4
     <message>
         <location line="+53"/>
         <location line="+429"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Cashera network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Cashera network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-190"/>
@@ -1676,8 +1676,8 @@ Address: %4
     </message>
     <message>
         <location line="-382"/>
-        <source>Cannot start reddcoin: click-to-pay handler</source>
-        <translation>Cannot start reddcoin: click-to-pay handler</translation>
+        <source>Cannot start Cashera: click-to-pay handler</source>
+        <translation>Cannot start Cashera: click-to-pay handler</translation>
     </message>
     <message>
         <location line="+105"/>
@@ -1691,7 +1691,7 @@ Address: %4
     </message>
     <message>
         <location line="+8"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Reddcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Cashera address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1784,7 +1784,7 @@ Address: %4
     <name>QObject</name>
     <message>
         <location filename="../guiutil.cpp" line="+106"/>
-        <source>Enter a Reddcoin address (e.g. %1)</source>
+        <source>Enter a Cashera address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2100,8 +2100,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Reddcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Reddcoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the Cashera debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Cashera debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -2110,8 +2110,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-35"/>
-        <source>Welcome to the Reddcoin RPC console.</source>
-        <translation>Welcome to the Reddcoin RPC console.</translation>
+        <source>Welcome to the Cashera RPC console.</source>
+        <translation>Welcome to the Cashera RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2706,8 +2706,8 @@ Address: %4
     </message>
     <message>
         <location line="+107"/>
-        <source>Warning: Invalid Reddcoin address</source>
-        <translation>Warning: Invalid Reddcoin address</translation>
+        <source>Warning: Invalid Cashera address</source>
+        <translation>Warning: Invalid Cashera address</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -2798,8 +2798,8 @@ Address: %4
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the reddcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reddcoin network.</source>
-        <translation>A message that was attached to the reddcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reddcoin network.</translation>
+        <source>A message that was attached to the Cashera: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Cashera network.</source>
+        <translation>A message that was attached to the Cashera: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Cashera network.</translation>
     </message>
     <message>
         <location line="+958"/>
@@ -2813,7 +2813,7 @@ Address: %4
     </message>
     <message>
         <location line="-70"/>
-        <source>The Reddcoin address to send the payment to</source>
+        <source>The Cashera address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2838,8 +2838,8 @@ Address: %4
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+47"/>
-        <source>Reddcoin Core is shutting down...</source>
-        <translation>Reddcoin Core is shutting down...</translation>
+        <source>Cashera Core is shutting down...</source>
+        <translation>Cashera Core is shutting down...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2866,7 +2866,7 @@ Address: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The Reddcoin address to sign the message with</source>
+        <source>The Cashera address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2908,8 +2908,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation>Sign the message to prove you own this Reddcoin address</translation>
+        <source>Sign the message to prove you own this Cashera address</source>
+        <translation>Sign the message to prove you own this Cashera address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2939,13 +2939,13 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The Reddcoin address the message was signed with</source>
+        <source>The Cashera address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified Reddcoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified Cashera address</source>
+        <translation>Verify the message to ensure it was signed with the specified Cashera address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3033,8 +3033,8 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+35"/>
-        <source>Reddcoin Core</source>
-        <translation>Reddcoin Core</translation>
+        <source>Cashera Core</source>
+        <translation>Cashera Core</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3043,8 +3043,8 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>The Reddcoin Core developers</source>
-        <translation>The Reddcoin Core developers</translation>
+        <source>The Cashera Core developers</source>
+        <translation>The Cashera Core developers</translation>
     </message>
     <message>
         <location filename="../networkstyle.cpp" line="+19"/>
@@ -3745,7 +3745,7 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Reddcoin Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Cashera Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3795,23 +3795,23 @@ Address: %4
     </message>
     <message>
         <location line="+10"/>
-        <source>To use reddcoind, or the -server option to reddcoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use Casherad, or the -server option to Cashera-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=reddcoinrpc
+rpcuser=Casherarpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Reddcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Cashera Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Unable to bind to %s on this computer. Reddcoin Core is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. Reddcoin Core is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. Cashera Core is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. Cashera Core is probably already running.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -3965,8 +3965,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Reddcoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+2"/>
-        <source>Initialization sanity check failed. Reddcoin Core is shutting down.</source>
-        <translation>Initialization sanity check failed. Reddcoin Core is shutting down.</translation>
+        <source>Initialization sanity check failed. Cashera Core is shutting down.</source>
+        <translation>Initialization sanity check failed. Cashera Core is shutting down.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4010,8 +4010,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Reddcoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+6"/>
-        <source>RPC SSL options: (see the wiki.reddcoin.com for SSL setup instructions)</source>
-        <translation>RPC SSL options: (see the wiki.reddcoin.com for SSL setup instructions)</translation>
+        <source>RPC SSL options: (see the wiki.Cashera.com for SSL setup instructions)</source>
+        <translation>RPC SSL options: (see the wiki.Cashera.com for SSL setup instructions)</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -4080,7 +4080,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Reddcoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Reddcoin Core to complete</source>
+        <source>Wallet needed to be rewritten: restart Cashera Core to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4115,8 +4115,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Reddcoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Cannot obtain a lock on data directory %s. Reddcoin Core is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. Reddcoin Core is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. Cashera Core is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. Cashera Core is probably already running.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4185,7 +4185,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Reddcoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2014-%i The Reddcoin Core Developers</source>
+        <source>Copyright (C) 2014-%i The Cashera Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

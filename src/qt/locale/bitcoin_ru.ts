@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Reddcoin Core</source>
-        <translation>О ядре Reddcoin</translation>
+        <source>About Cashera Core</source>
+        <translation>О ядре Cashera</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Reddcoin Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Ядро Reddcoin&lt;/b&gt; версия</translation>
+        <source>&lt;b&gt;Cashera Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Ядро Cashera&lt;/b&gt; версия</translation>
     </message>
     <message>
         <source>
@@ -27,8 +27,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Все права защищены</translation>
     </message>
     <message>
-        <source>The Reddcoin Core developers</source>
-        <translation>Разработчики Reddcoin</translation>
+        <source>The Cashera Core developers</source>
+        <translation>Разработчики Cashera</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -102,12 +102,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Cashera addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Ваши адреса для получения средств. Совет: проверьте сумму и адрес назначения перед переводом.</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это Ваши адреса Reddcoin для получения платежей. Рекомендуется использовать новый адрес получения для каждой сделки.</translation>
+        <source>These are your Cashera addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это Ваши адреса Cashera для получения платежей. Рекомендуется использовать новый адрес получения для каждой сделки.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -212,8 +212,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Подтвердите шифрование бумажника</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
-        <translation>Предупреждение: Если Вы зашифруете свой кошелёк и потеряете свой пароль, &lt;b&gt;ВЫ ПОТЕРЯЕТЕ ВСЕ СВОИ REDDCOIN МОНЕТЫ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CasheraS&lt;/b&gt;!</source>
+        <translation>Предупреждение: Если Вы зашифруете свой кошелёк и потеряете свой пароль, &lt;b&gt;ВЫ ПОТЕРЯЕТЕ ВСЕ СВОИ Cashera МОНЕТЫ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -232,8 +232,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Бумажник зашифрован</translation>
     </message>
     <message>
-        <source>Reddcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your reddcoins from being stolen by malware infecting your computer.</source>
-        <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши Reddcoin от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
+        <source>Cashera will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Casheras from being stolen by malware infecting your computer.</source>
+        <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши Cashera от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -291,8 +291,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Запрос</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
-        <translation>Запросы платежей (генерирует QR-коды и reddcoin: адреса)</translation>
+        <source>Request payments (generates QR codes and Cashera: URIs)</source>
+        <translation>Запросы платежей (генерирует QR-коды и Cashera: адреса)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -311,8 +311,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Закрыть приложение</translation>
     </message>
     <message>
-        <source>Show information about Reddcoin</source>
-        <translation>Показать информацию о Reddcoin</translation>
+        <source>Show information about Cashera</source>
+        <translation>Показать информацию о Cashera</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -367,12 +367,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Открыть &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a reddcoin: URI or payment request</source>
-        <translation>Откройте reddcoin: URI или запрос платежа</translation>
+        <source>Open a Cashera: URI or payment request</source>
+        <translation>Откройте Cashera: URI или запрос платежа</translation>
     </message>
     <message>
-        <source>Reddcoin Core client</source>
-        <translation>Reddcoin клиент</translation>
+        <source>Cashera Core client</source>
+        <translation>Cashera клиент</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -415,12 +415,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Не майнится</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation>Отправить монеты на указанный адрес Reddcoin</translation>
+        <source>Send coins to a Cashera address</source>
+        <translation>Отправить монеты на указанный адрес Cashera</translation>
     </message>
     <message>
-        <source>Modify configuration options for Reddcoin</source>
-        <translation>Изменить параметры конфигурации Reddcoin</translation>
+        <source>Modify configuration options for Cashera</source>
+        <translation>Изменить параметры конфигурации Cashera</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -443,8 +443,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Проверить сообщение...</translation>
     </message>
     <message>
-        <source>Reddcoin</source>
-        <translation>Reddcoin</translation>
+        <source>Cashera</source>
+        <translation>Cashera</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -467,12 +467,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Зашифровать приватные ключи, принадлежащие вашему бумажнику</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
-        <translation>Подписать сообщения вашим адресом Reddcoin, чтобы доказать, что вы им владеете</translation>
+        <source>Sign messages with your Cashera addresses to prove you own them</source>
+        <translation>Подписать сообщения вашим адресом Cashera, чтобы доказать, что вы им владеете</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
-        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом Reddcoin</translation>
+        <source>Verify messages to ensure they were signed with specified Cashera addresses</source>
+        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом Cashera</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -495,12 +495,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[тестовая сеть]</translation>
     </message>
     <message>
-        <source>Reddcoin Core</source>
-        <translation>Ядро Reddcoin</translation>
+        <source>Cashera Core</source>
+        <translation>Ядро Cashera</translation>
     </message>
     <message>
-        <source>&amp;About Reddcoin Core</source>
-        <translation>&amp;О ядре Reddcoin</translation>
+        <source>&amp;About Cashera Core</source>
+        <translation>&amp;О ядре Cashera</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -515,11 +515,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Опции командной строки</translation>
     </message>
     <message>
-        <source>Show the Reddcoin Core help message to get a list with possible Reddcoin command-line options</source>
-        <translation>Показать справку Reddcoin ядра для получения списка возможных Reddcoin параметров командной строки</translation>
+        <source>Show the Cashera Core help message to get a list with possible Cashera command-line options</source>
+        <translation>Показать справку Cashera ядра для получения списка возможных Cashera параметров командной строки</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Reddcoin network</source>
+        <source>%n active connection(s) to Cashera network</source>
         <translation><numerusform>%n активное соединение с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform></translation>
     </message>
     <message>
@@ -611,8 +611,8 @@ Address: %4
         <translation>Бумажник &lt;b&gt;зашифрован&lt;/b&gt; и в настоящее время &lt;b&gt;заблокирован&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Reddcoin can no longer continue safely and will quit.</source>
-        <translation>Произошла неисправимая ошибка. Reddcoin не может безопасно продолжать работу и будет закрыт.</translation>
+        <source>A fatal error occurred. Cashera can no longer continue safely and will quit.</source>
+        <translation>Произошла неисправимая ошибка. Cashera не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
@@ -896,8 +896,8 @@ Address: %4
         <translation>Введённый адрес «%1» уже находится в адресной книге.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
-        <translation>Введённый адрес "%1" не является правильным Reddcoin-адресом.</translation>
+        <source>The entered address "%1" is not a valid Cashera address.</source>
+        <translation>Введённый адрес "%1" не является правильным Cashera-адресом.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -934,12 +934,12 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Reddcoin Core - Command-line options</source>
-        <translation>Reddcoin Core - Параметры командной строки</translation>
+        <source>Cashera Core - Command-line options</source>
+        <translation>Cashera Core - Параметры командной строки</translation>
     </message>
     <message>
-        <source>Reddcoin Core</source>
-        <translation>Ядро Reddcoin</translation>
+        <source>Cashera Core</source>
+        <translation>Ядро Cashera</translation>
     </message>
     <message>
         <source>version</source>
@@ -985,16 +985,16 @@ Address: %4
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to Reddcoin Core.</source>
-        <translation>Добро пожаловать в ядро Reddcoin</translation>
+        <source>Welcome to Cashera Core.</source>
+        <translation>Добро пожаловать в ядро Cashera</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Reddcoin Core will store its data.</source>
-        <translation>Так как вы впервые запустили программу, вы можете выбрать, где Reddcoin Core будет хранить данные.</translation>
+        <source>As this is the first time the program is launched, you can choose where Cashera Core will store its data.</source>
+        <translation>Так как вы впервые запустили программу, вы можете выбрать, где Cashera Core будет хранить данные.</translation>
     </message>
     <message>
-        <source>Reddcoin Core will download and store a copy of the Reddcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Reddcoin Core скачает и сохранит копию цепи блоков. Как минимум, %1ГБ данных будет храниться в этом каталоге, и со временем он будет расти. Бумажник будет также сохранён в этом каталоге.</translation>
+        <source>Cashera Core will download and store a copy of the Cashera block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Cashera Core скачает и сохранит копию цепи блоков. Как минимум, %1ГБ данных будет храниться в этом каталоге, и со временем он будет расти. Бумажник будет также сохранён в этом каталоге.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1005,8 +1005,8 @@ Address: %4
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>Reddcoin Core</source>
-        <translation>Ядро Reddcoin</translation>
+        <source>Cashera Core</source>
+        <translation>Ядро Cashera</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" can not be created.</source>
@@ -1067,12 +1067,12 @@ Address: %4
         <translation>Заплатить ко&amp;миссию</translation>
     </message>
     <message>
-        <source>Automatically start Reddcoin after logging in to the system.</source>
-        <translation>Автоматически запускать Reddcoin после входа в систему</translation>
+        <source>Automatically start Cashera after logging in to the system.</source>
+        <translation>Автоматически запускать Cashera после входа в систему</translation>
     </message>
     <message>
-        <source>&amp;Start Reddcoin on system login</source>
-        <translation>&amp;Запускать Reddcoin при входе в систему</translation>
+        <source>&amp;Start Cashera on system login</source>
+        <translation>&amp;Запускать Cashera при входе в систему</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1087,8 +1087,8 @@ Address: %4
         <translation>Число потоков проверки &amp;сценария</translation>
     </message>
     <message>
-        <source>Connect to the Reddcoin network through a SOCKS proxy.</source>
-        <translation>Подключаться к сети Reddcoin через прокси SOCKS.</translation>
+        <source>Connect to the Cashera network through a SOCKS proxy.</source>
+        <translation>Подключаться к сети Cashera через прокси SOCKS.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS proxy (default proxy):</source>
@@ -1147,8 +1147,8 @@ Address: %4
         <translation>&amp;Тратить неподтверждённую сдачу</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для Reddcoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+        <source>Automatically open the Cashera client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для Cashera-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1203,8 +1203,8 @@ Address: %4
         <translation>&amp;Язык интерфейса:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Reddcoin.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Reddcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Cashera.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Cashera.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1215,8 +1215,8 @@ Address: %4
         <translation>Выберите единицу измерения монет при отображении и отправке.</translation>
     </message>
     <message>
-        <source>Whether to show Reddcoin addresses in the transaction list or not.</source>
-        <translation>Показывать ли адреса Reddcoin в списке транзакций.</translation>
+        <source>Whether to show Cashera addresses in the transaction list or not.</source>
+        <translation>Показывать ли адреса Cashera в списке транзакций.</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
@@ -1270,8 +1270,8 @@ Address: %4
         <translation>Форма</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш кошелёк автоматически синхронизируется с сетью Reddcoin после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Cashera network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш кошелёк автоматически синхронизируется с сетью Cashera после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1333,8 +1333,8 @@ Address: %4
         <translation>Обработка URI</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Reddcoin address or malformed URI parameters.</source>
-        <translation>Не удалось разобрать URI! Это может быть связано с неверным адресом Reddcoin или неправильными параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Cashera address or malformed URI parameters.</source>
+        <translation>Не удалось разобрать URI! Это может быть связано с неверным адресом Cashera или неправильными параметрами URI.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1345,8 +1345,8 @@ Address: %4
         <translation>Ошибка запроса платежа</translation>
     </message>
     <message>
-        <source>Cannot start reddcoin: click-to-pay handler</source>
-        <translation>Не удаётся запустить reddcoin: обработчик click-to-pay</translation>
+        <source>Cannot start Cashera: click-to-pay handler</source>
+        <translation>Не удаётся запустить Cashera: обработчик click-to-pay</translation>
     </message>
     <message>
         <source>Net manager warning</source>
@@ -1400,8 +1400,8 @@ Address: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Reddcoin Core</source>
-        <translation>Ядро Reddcoin</translation>
+        <source>Cashera Core</source>
+        <translation>Ядро Cashera</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -1416,12 +1416,12 @@ Address: %4
         <translation>Ошибка: неверная комбинация -regtest и -testnet.</translation>
     </message>
     <message>
-        <source>Reddcoin Core didn't yet exit safely...</source>
-        <translation>Reddcoin Core ещё не завершился безопасно...</translation>
+        <source>Cashera Core didn't yet exit safely...</source>
+        <translation>Cashera Core ещё не завершился безопасно...</translation>
     </message>
     <message>
-        <source>Enter a Reddcoin address (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
-        <translation>Введите адрес Reddcoin (например RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
+        <source>Enter a Cashera address (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
+        <translation>Введите адрес Cashera (например RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
     </message>
 </context>
 <context>
@@ -1538,16 +1538,16 @@ Address: %4
         <translation>Отладочный лог-файл</translation>
     </message>
     <message>
-        <source>Open the Reddcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл Reddcoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+        <source>Open the Cashera debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл Cashera из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Очистить консоль</translation>
     </message>
     <message>
-        <source>Welcome to the Reddcoin RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль Reddcoin.</translation>
+        <source>Welcome to the Cashera RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль Cashera.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1609,8 +1609,8 @@ Address: %4
         <translation>&amp;Повторно использовать существующий адрес получения (не рекомендуется)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reddcoin network.</source>
-        <translation>Необязательное сообщение прикрепить к запросу оплаты, которая будет отображаться при открытии запроса. Примечание: сообщение не отправляется с выплатами по сети Reddcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Cashera network.</source>
+        <translation>Необязательное сообщение прикрепить к запросу оплаты, которая будет отображаться при открытии запроса. Примечание: сообщение не отправляется с выплатами по сети Cashera.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1922,8 +1922,8 @@ Address: %4
         <translation>Транзакция была отклонена! Такое может произойти, если некоторые монеты уже были потрачены, например, если Вы используете одну копию бумажника (wallet.dat), а монеты были потрачены из другой копии, но не были отмечены как потраченные в этой.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Reddcoin address</source>
-        <translation>Предупреждение: недопустимый Reddcoin адрес</translation>
+        <source>Warning: Invalid Cashera address</source>
+        <translation>Предупреждение: недопустимый Cashera адрес</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1977,8 +1977,8 @@ Address: %4
         <translation>Это нормальный платёж.</translation>
     </message>
     <message>
-        <source>The Reddcoin address to send the payment to (e.g. Rppgy8PHbBrknXfDmfEmqZXTKMR1yiwVtB)</source>
-        <translation>Адрес Reddcoin для отправки платежа (например Rppgy8PHbBrknXfDmfEmqZXTKMR1yiwVtB)</translation>
+        <source>The Cashera address to send the payment to (e.g. Rppgy8PHbBrknXfDmfEmqZXTKMR1yiwVtB)</source>
+        <translation>Адрес Cashera для отправки платежа (например Rppgy8PHbBrknXfDmfEmqZXTKMR1yiwVtB)</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2001,8 +2001,8 @@ Address: %4
         <translation>Сообщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the reddcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reddcoin network.</source>
-        <translation>К reddcoin: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Заметьте: сообщение не будет отправлено через сеть Reddcoin.</translation>
+        <source>A message that was attached to the Cashera: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Cashera network.</source>
+        <translation>К Cashera: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Заметьте: сообщение не будет отправлено через сеть Cashera.</translation>
     </message>
     <message>
         <source>This is a verified payment request.</source>
@@ -2028,8 +2028,8 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Reddcoin Core is shutting down...</source>
-        <translation>Reddcoin Core выключается...</translation>
+        <source>Cashera Core is shutting down...</source>
+        <translation>Cashera Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2051,8 +2051,8 @@ Address: %4
         <translation>Вы можете подписывать сообщения своими адресами, чтобы доказать владение ими. Будьте осторожны, не подписывайте что-то неопределённое, так как фишинговые атаки могут обманным путём заставить вас подписать нежелательные сообщения. Подписывайте только те сообщения, с которыми вы согласны вплоть до мелочей.</translation>
     </message>
     <message>
-        <source>The Reddcoin address to sign the message with (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
-        <translation>Подписать сообщение с адресом Reddcoin (например, RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
+        <source>The Cashera address to sign the message with (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
+        <translation>Подписать сообщение с адресом Cashera (например, RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2083,8 +2083,8 @@ Address: %4
         <translation>Скопировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Reddcoin</translation>
+        <source>Sign the message to prove you own this Cashera address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом Cashera</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2107,12 +2107,12 @@ Address: %4
         <translation>Введите ниже адрес для подписи, сообщение (убедитесь, что переводы строк, пробелы, табы и т.п. в точности скопированы) и подпись, чтобы проверить сообщение. Убедитесь, что не скопировали лишнего в подпись, по сравнению с самим подписываемым сообщением, чтобы не стать жертвой атаки "man-in-the-middle".</translation>
     </message>
     <message>
-        <source>The Reddcoin address the message was signed with (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
-        <translation>Сообщение адреса Reddcoin было подписано с (например, RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
+        <source>The Cashera address the message was signed with (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
+        <translation>Сообщение адреса Cashera было подписано с (например, RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Reddcoin</translation>
+        <source>Verify the message to ensure it was signed with the specified Cashera address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Cashera</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2127,8 +2127,8 @@ Address: %4
         <translation>Нажмите "Подписать сообщение" для создания подписи</translation>
     </message>
     <message>
-        <source>Enter a Reddcoin address (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
-        <translation>Введите адрес Reddcoin (например RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
+        <source>Enter a Cashera address (e.g. RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</source>
+        <translation>Введите адрес Cashera (например RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX)</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -2182,12 +2182,12 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Reddcoin Core</source>
-        <translation>Ядро Reddcoin</translation>
+        <source>Cashera Core</source>
+        <translation>Ядро Cashera</translation>
     </message>
     <message>
-        <source>The Reddcoin Core developers</source>
-        <translation>Разработчики Reddcoin</translation>
+        <source>The Cashera Core developers</source>
+        <translation>Разработчики Cashera</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2716,24 +2716,24 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=reddcoinrpc
+rpcuser=Casherarpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Reddcoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Cashera Alert" admin@foo.com
 </source>
         <translation>%s, вы должны установить опцию rpcpassword в конфигурационном файле:
  %s
 Рекомендуется использовать следующий случайный пароль:
-rpcuser=reddcoinrpc
+rpcuser=Casherarpc
 rpcpassword=%s
 (вам не нужно запоминать этот пароль)
 Имя и пароль ДОЛЖНЫ различаться.
 Если файл не существует, создайте его и установите права доступа только для владельца, только для чтения.
 Также рекомендуется включить alertnotify для оповещения о проблемах;
-Например: alertnotify=echo %%s | mail -s "Reddcoin Alert" admin@foo.com</translation>
+Например: alertnotify=echo %%s | mail -s "Cashera Alert" admin@foo.com</translation>
     </message>
     <message>
         <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
@@ -2800,8 +2800,8 @@ rpcpassword=%s
         <translation>Задать число потоков проверки скрипта (от %u до %d, 0=авто, &lt;0 = оставить столько ядер свободными, по умолчанию: %d)</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Reddcoin Core is probably already running.</source>
-        <translation>Не удается выполнить привязку к %s на этом компьютере. Reddcoin ядро, вероятно, уже запущено. </translation>
+        <source>Unable to bind to %s on this computer. Cashera Core is probably already running.</source>
+        <translation>Не удается выполнить привязку к %s на этом компьютере. Cashera ядро, вероятно, уже запущено. </translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
@@ -2812,8 +2812,8 @@ rpcpassword=%s
         <translation>Внимание: установлено очень большое значение -paytxfee. Это комиссия, которую вы заплатите при проведении транзакции.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Reddcoin will not work properly.</source>
-        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Reddcoin будет работать некорректно.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Cashera will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Cashera будет работать некорректно.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2996,8 +2996,8 @@ rpcpassword=%s
         <translation>Неверный или отсутствующий начальный блок. Неправильный каталог данных для сети?</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Reddcoin Core is shutting down.</source>
-        <translation>Инициализация проверки не удалось. Reddcoin ядро отключается. </translation>
+        <source>Initialization sanity check failed. Cashera Core is shutting down.</source>
+        <translation>Инициализация проверки не удалось. Cashera ядро отключается. </translation>
     </message>
     <message>
         <source>Invalid -onion address: '%s'</source>
@@ -3024,8 +3024,8 @@ rpcpassword=%s
         <translation>Дописывать отметки времени к отладочному выводу (по умолчанию: 1)</translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the wiki.reddcoin.com for SSL setup instructions)</source>
-        <translation>Параметры RPC SSL: (см. wiki.reddcoin.com вики для инструкций по настройке SSL)</translation>
+        <source>RPC SSL options: (see the wiki.Cashera.com for SSL setup instructions)</source>
+        <translation>Параметры RPC SSL: (см. wiki.Cashera.com вики для инструкций по настройке SSL)</translation>
     </message>
     <message>
         <source>RPC client options:</source>
@@ -3052,12 +3052,12 @@ rpcpassword=%s
         <translation>Задать число потоков выполнения (по умолчанию: 4)</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: reddcoin.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: reddcoin.conf)</translation>
+        <source>Specify configuration file (default: Cashera.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: Cashera.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: reddcoind.pid)</source>
-        <translation>Задать pid-файл (по умолчанию: reddcoin.pid)</translation>
+        <source>Specify pid file (default: Casherad.pid)</source>
+        <translation>Задать pid-файл (по умолчанию: Cashera.pid)</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
@@ -3112,8 +3112,8 @@ rpcpassword=%s
         <translation>Импортировать блоки из внешнего файла blk000??.dat</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Reddcoin Core is probably already running.</source>
-        <translation>Не удалось установить блокировку на каталог данных %s. Возможно, Reddcoin Core уже запущен.</translation>
+        <source>Cannot obtain a lock on data directory %s. Cashera Core is probably already running.</source>
+        <translation>Не удалось установить блокировку на каталог данных %s. Возможно, Cashera Core уже запущен.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3212,29 +3212,29 @@ rpcpassword=%s
         <translation>Случайно разбрасывать 1 из каждых &lt;n&gt; сетевых сообщений</translation>
     </message>
     <message>
-        <source>Reddcoin Core Daemon</source>
-        <translation>Дух ядра Reddcoin</translation>
+        <source>Cashera Core Daemon</source>
+        <translation>Дух ядра Cashera</translation>
     </message>
     <message>
-        <source>Reddcoin Core RPC client version</source>
-        <translation>Ядро Reddcoin RPC версия клиента</translation>
+        <source>Cashera Core RPC client version</source>
+        <translation>Ядро Cashera RPC версия клиента</translation>
     </message>
     <message>
         <source>Run a thread to flush wallet periodically (default: 1)</source>
         <translation>Запустить поток для периодического сохранения бумажника (по умолчанию: 1)</translation>
     </message>
     <message>
-        <source>SSL options: (see the Reddcoin Wiki for SSL setup instructions)</source>
+        <source>SSL options: (see the Cashera Wiki for SSL setup instructions)</source>
         <translation>
-Параметры SSL: (см. Reddcoin Wiki для инструкций по настройке SSL)</translation>
+Параметры SSL: (см. Cashera Wiki для инструкций по настройке SSL)</translation>
     </message>
     <message>
-        <source>Send command to Reddcoin Core</source>
-        <translation>Отправить команду Reddcoin</translation>
+        <source>Send command to Cashera Core</source>
+        <translation>Отправить команду Cashera</translation>
     </message>
     <message>
-        <source>Send command to reddcoin Core</source>
-        <translation>Отправить команду reddcoin</translation>
+        <source>Send command to Cashera Core</source>
+        <translation>Отправить команду Cashera</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3269,8 +3269,8 @@ rpcpassword=%s
         <translation>Таймаут соединения в миллисекундах (по умолчанию: 5000)</translation>
     </message>
     <message>
-        <source>Start Reddcoin Core Daemon</source>
-        <translation>Запустить Reddcoin Core демон</translation>
+        <source>Start Cashera Core Daemon</source>
+        <translation>Запустить Cashera Core демон</translation>
     </message>
     <message>
         <source>System error: </source>
@@ -3289,8 +3289,8 @@ rpcpassword=%s
         <translation>Транзакция слишком большая</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use reddcoin-cli):</source>
-        <translation>Использование (устарело, используйте reddcoin-cli):</translation>
+        <source>Usage (deprecated, use Cashera-cli):</source>
+        <translation>Использование (устарело, используйте Cashera-cli):</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 0)</source>
@@ -3385,12 +3385,12 @@ rpcpassword=%s
         <translation>Ошибка загрузки wallet.dat: Кошелёк поврежден</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Reddcoin</source>
-        <translation>Ошибка загрузки wallet.dat: Кошелёк требует более новую версию Reddcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Cashera</source>
+        <translation>Ошибка загрузки wallet.dat: Кошелёк требует более новую версию Cashera</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Reddcoin to complete</source>
-        <translation>Необходимо перезаписать кошелёк, перезапустите Reddcoin для завершения операции.</translation>
+        <source>Wallet needed to be rewritten: restart Cashera to complete</source>
+        <translation>Необходимо перезаписать кошелёк, перезапустите Cashera для завершения операции.</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

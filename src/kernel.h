@@ -1,9 +1,9 @@
 // Copyright (c) 2012-2013 The PPCoin developers
-// Copyright (c) 2014 The Reddcoin developers
+// Copyright (c) 2014 The Cashera developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef REDDCOIN_KERNEL_H
-#define REDDCOIN_KERNEL_H
+#ifndef Cashera_KERNEL_H
+#define Cashera_KERNEL_H
 
 #include "main.h"
 
@@ -46,4 +46,4 @@ uint64_t GetCoinAge(const CBlock& block);
 // Calculate the adjustment to apply to coinstake to align with 5% growth
 double GetInflationAdjustment(const CBlockIndex* pindex);
 
-#endif // REDDCOIN_KERNEL_H
+#endif // Cashera_KERNEL_H

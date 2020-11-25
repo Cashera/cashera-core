@@ -2,11 +2,11 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Reddcoin Core</source>
+        <source>About Cashera Core</source>
         <translation>نبذه عن اساسيات ريدكوين</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Reddcoin Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;Cashera Core&lt;/b&gt; version</source>
         <translation>&lt;b&gt;اساسيات ريدكوين&lt;/b&gt; نسخه</translation>
     </message>
     <message>
@@ -14,7 +14,7 @@
         <translation>حقوق الملكيه</translation>
     </message>
     <message>
-        <source>The Reddcoin Core developers</source>
+        <source>The Cashera Core developers</source>
         <translation>مطوري الريدكوين الاساسي</translation>
     </message>
     </context>
@@ -109,7 +109,7 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>The Reddcoin Core developers</source>
+        <source>The Cashera Core developers</source>
         <translation>مطوري الريدكوين الاساسي</translation>
     </message>
     </context>

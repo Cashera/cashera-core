@@ -32,10 +32,10 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
     float fontFactor            = 1.0;
 
     // define text to place
-    QString titleText       = tr("Reddcoin Core");
+    QString titleText       = tr("Cashera Core");
     QString versionText     = QString("Version %1").arg(QString::fromStdString(FormatFullVersion()));
     QString copyrightText1   = QChar(0xA9)+QString(" 2009-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Bitcoin Core developers"));
-    QString copyrightText2   = QChar(0xA9)+QString(" 2014-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Reddcoin Core developers"));
+    QString copyrightText2   = QChar(0xA9)+QString(" 2014-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Cashera Core developers"));
     QString copyrightText = copyrightText1 + QString("\n") + copyrightText2;
     QString titleText_versionText = titleText + QString(" ") + versionText;
     QString titleAddText    = networkStyle->getTitleAddText();

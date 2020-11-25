@@ -27,7 +27,7 @@
 using namespace std;
 //////////////////////////////////////////////////////////////////////////////
 //
-// ReddcoinMiner
+// CasheraMiner
 //
 
 //
@@ -470,7 +470,7 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != chainActive.Tip()->GetBlockHash())
-            return error("ReddcoinMiner : mined block is stale");
+            return error("CasheraMiner : mined block is stale");
     }
     // Remove key from key pool
     reservekey.KeepKey();
@@ -484,7 +484,7 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     // Process this block the same as if we had received it from another node
     CValidationState state;
     if (!ProcessNewBlock(state, NULL, pblock))
-        return error("ReddcoinMiner : ProcessNewBlock, block not accepted");
+        return error("CasheraMiner : ProcessNewBlock, block not accepted");
 
     return true;
 }
@@ -502,7 +502,7 @@ bool ProcessStakeFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         return error("ProcessStakeFound() : proof-of-stake checking failed");
 
     //// debug print
-    LogPrintf("ReddcoinStaker:\n");
+    LogPrintf("CasheraStaker:\n");
     LogPrintf("proof-of-stake found  \n  hash: %s\n  stake: %s\n  target: %s\n", hash.GetHex(), hashStake.GetHex(), hashTarget.GetHex());
     LogPrintf("%s\n", pblock->ToString());
     LogPrintf("minted %s\n", FormatMoney(pblock->vtx[1].GetValueOut()));
@@ -511,7 +511,7 @@ bool ProcessStakeFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != chainActive.Tip()->GetBlockHash())
-            return error("ReddcoinStaker : minted block is stale");
+            return error("CasheraStaker : minted block is stale");
     }
 
     // Remove key from key pool
@@ -526,18 +526,18 @@ bool ProcessStakeFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     // Process this block the same as if we had received it from another node
     CValidationState state;
     if (!ProcessNewBlock(state, NULL, pblock))
-        return error("ReddcoinStaker : ProcessNewBlock, block not accepted");
+        return error("CasheraStaker : ProcessNewBlock, block not accepted");
 
     return true;
 }
 
-void ReddcoinStaker(CWallet *pwallet)
+void CasheraStaker(CWallet *pwallet)
 {
-    LogPrintf("ReddcoinStaker started\n");
+    LogPrintf("CasheraStaker started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
 
     // Make this thread recognisable as the staking thread
-    RenameThread("reddcoin-staker");
+    RenameThread("Cashera-staker");
     CReserveKey reservekey(pwallet);
 
     try {
@@ -548,7 +548,7 @@ void ReddcoinStaker(CWallet *pwallet)
 				while (vNodes.empty())
 				{
 					// Busy-wait for the network to come online.
-					LogPrintf("ReddcoinStaker : Waiting for network online.\n");
+					LogPrintf("CasheraStaker : Waiting for network online.\n");
 					nLastCoinStakeSearchInterval = 0;
 					MilliSleep(1000);
 				}
@@ -557,20 +557,20 @@ void ReddcoinStaker(CWallet *pwallet)
 			while (IsInitialBlockDownload())
 			{
 				// Busy-wait for the download of the blockchain to complete
-				LogPrintf("ReddcoinStaker : Waiting... Blockchain Downloading.\n");
+				LogPrintf("CasheraStaker : Waiting... Blockchain Downloading.\n");
 				MilliSleep(60000);
 			}
 
 			while (pwallet->IsLocked())
 			{
-				LogPrintf("ReddcoinStaker : Wallet is locked.\n");
+				LogPrintf("CasheraStaker : Wallet is locked.\n");
 				nLastCoinStakeSearchInterval = 0;
 				MilliSleep(1000);
 			}
 
 			while (chainActive.Tip()->nHeight < Params().LastProofOfWorkHeight())
 			{
-				LogPrintf("ReddcoinStaker : Chaintip < Last POW.\n");
+				LogPrintf("CasheraStaker : Chaintip < Last POW.\n");
 				MilliSleep(60000);
 			}
 
@@ -580,7 +580,7 @@ void ReddcoinStaker(CWallet *pwallet)
 			auto_ptr<CBlockTemplate> pblocktemplate(CreateNewBlockWithKey(reservekey));
 			if (!pblocktemplate.get())
             {
-                LogPrintf("Error in ReddcoinStaker: Keypool ran out, please call keypoolrefill before restarting the mining thread\n");
+                LogPrintf("Error in CasheraStaker: Keypool ran out, please call keypoolrefill before restarting the mining thread\n");
                 return;
             }
 			CBlock *pblock = &pblocktemplate->block;
@@ -596,23 +596,23 @@ void ReddcoinStaker(CWallet *pwallet)
 			}
 			else
 			{
-				// LogPrintf("ReddcoinStaker : Failed to sign the new block.\n");
+				// LogPrintf("CasheraStaker : Failed to sign the new block.\n");
 				MilliSleep(1000);
 			}
 		}
     }
     catch (boost::thread_interrupted)
     {
-        LogPrintf("ReddcoinStaker terminated\n");
+        LogPrintf("CasheraStaker terminated\n");
         throw;
     }
 }
 
-void static ReddcoinMiner(CWallet* pwallet)
+void static CasheraMiner(CWallet* pwallet)
 {
-    LogPrintf("ReddcoinMiner started\n");
+    LogPrintf("CasheraMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("reddcoin-miner");
+    RenameThread("Cashera-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -624,14 +624,14 @@ void static ReddcoinMiner(CWallet* pwallet)
                 // Busy-wait for the network to come online so we don't waste time mining
                 // on an obsolete chain. In regtest mode we expect to fly solo.
                 while (vNodes.empty()) {
-                    LogPrintf("ReddcoinMiner : Waiting for network online.\n");
+                    LogPrintf("CasheraMiner : Waiting for network online.\n");
                     MilliSleep(1000);
                 }
             }
 
             while (IsInitialBlockDownload()) {
                 // Busy-wait for the download of the blockchain to complete
-                LogPrintf("ReddcoinMiner : Waiting... Blockchain Downloading.\n");
+                LogPrintf("CasheraMiner : Waiting... Blockchain Downloading.\n");
                 MilliSleep(60000);
             }
 
@@ -643,20 +643,20 @@ void static ReddcoinMiner(CWallet* pwallet)
 
             auto_ptr<CBlockTemplate> pblocktemplate(CreateNewBlockWithKey(reservekey));
             if (!pblocktemplate.get()) {
-                LogPrintf("Error in ReddcoinMiner: Keypool ran out, please call keypoolrefill before restarting the mining thread\n");
+                LogPrintf("Error in CasheraMiner: Keypool ran out, please call keypoolrefill before restarting the mining thread\n");
                 return;
             }
             CBlock* pblock = &pblocktemplate->block;
 
             // exit if received a PoSV block template
             if (pblock->vtx[0].vout[0].IsEmpty()) {
-                LogPrintf("ReddcoinMiner : no more PoW blocks\n");
+                LogPrintf("CasheraMiner : no more PoW blocks\n");
                 return;
             }
 
             IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-            LogPrintf("Running ReddcoinMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
+            LogPrintf("Running CasheraMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
                       ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
             //
@@ -680,7 +680,7 @@ void static ReddcoinMiner(CWallet* pwallet)
                         assert(hash == pblock->GetHash());
 
                         SetThreadPriority(THREAD_PRIORITY_NORMAL);
-                        LogPrintf("ReddcoinMiner:\n");
+                        LogPrintf("CasheraMiner:\n");
                         LogPrintf("proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex(), hashTarget.GetHex());
                         ProcessBlockFound(pblock, *pwallet, reservekey);
                         SetThreadPriority(THREAD_PRIORITY_LOWEST);
@@ -738,12 +738,12 @@ void static ReddcoinMiner(CWallet* pwallet)
             }
         }
     } catch (boost::thread_interrupted) {
-        LogPrintf("ReddcoinMiner terminated\n");
+        LogPrintf("CasheraMiner terminated\n");
         throw;
     }
 }
 
-void GenerateReddcoins(bool fGenerate, CWallet* pwallet, int nThreads)
+void GenerateCasheras(bool fGenerate, CWallet* pwallet, int nThreads)
 {
     static boost::thread_group* minerThreads = NULL;
 
@@ -760,7 +760,7 @@ void GenerateReddcoins(bool fGenerate, CWallet* pwallet, int nThreads)
     minerThreads = new boost::thread_group();
 
     // start one thread for PoSV minting
-    minerThreads->create_thread(boost::bind(&ReddcoinStaker, pwallet));
+    minerThreads->create_thread(boost::bind(&CasheraStaker, pwallet));
 
     if (nThreads < 0) {
         // In regtest threads defaults to 1
@@ -772,7 +772,7 @@ void GenerateReddcoins(bool fGenerate, CWallet* pwallet, int nThreads)
 
 
     for (int i = 0; i < nThreads; i++)
-        minerThreads->create_thread(boost::bind(&ReddcoinMiner, pwallet));
+        minerThreads->create_thread(boost::bind(&CasheraMiner, pwallet));
 }
 
 #endif // ENABLE_WALLET

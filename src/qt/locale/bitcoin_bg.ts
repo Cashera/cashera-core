@@ -224,8 +224,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Затваря приложението</translation>
     </message>
     <message>
-        <source>Show information about Reddcoin</source>
-        <translation>Показва информация за Reddcoin</translation>
+        <source>Show information about Cashera</source>
+        <translation>Показва информация за Cashera</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -296,12 +296,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Не залага</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
-        <translation>Изпращане към Reddcoin адрес</translation>
+        <source>Send coins to a Cashera address</source>
+        <translation>Изпращане към Cashera адрес</translation>
     </message>
     <message>
-        <source>Modify configuration options for Reddcoin</source>
-        <translation>Промени конфигурационните настройки за Reddcoin</translation>
+        <source>Modify configuration options for Cashera</source>
+        <translation>Промени конфигурационните настройки за Cashera</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -320,8 +320,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Проверка на съобщение...</translation>
     </message>
     <message>
-        <source>Reddcoin</source>
-        <translation>Reddcoin</translation>
+        <source>Cashera</source>
+        <translation>Cashera</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -525,8 +525,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Вече има адрес "%1" в списъка с адреси.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
-        <translation>"%1" не е валиден Reddcoin адрес.</translation>
+        <source>The entered address "%1" is not a valid Cashera address.</source>
+        <translation>"%1" не е валиден Cashera адрес.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -600,16 +600,16 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Такса за изходяща транзакция</translation>
     </message>
     <message>
-        <source>&amp;Start Reddcoin on system login</source>
-        <translation>&amp;Пускане на Reddcoin при вход в системата</translation>
+        <source>&amp;Start Cashera on system login</source>
+        <translation>&amp;Пускане на Cashera при вход в системата</translation>
     </message>
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Мрежа</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отваряне на входящия Reddcoin порт. Работи само с рутери поддържащи UPnP.</translation>
+        <source>Automatically open the Cashera client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отваряне на входящия Cashera порт. Работи само с рутери поддържащи UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -644,8 +644,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Език на графичния интерфейс:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Reddcoin.</source>
-        <translation>Промяната на езика ще влезе в сила след рестартиране на Reddcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Cashera.</source>
+        <translation>Промяната на езика ще влезе в сила след рестартиране на Cashera.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -656,7 +656,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Изберете единиците, показвани по подразбиране в интерфейса.</translation>
     </message>
     <message>
-        <source>Whether to show Reddcoin addresses in the transaction list or not.</source>
+        <source>Whether to show Cashera addresses in the transaction list or not.</source>
         <translation>Ще се показват адресите в списъка с транзакции независимо от наличието на кратко име.</translation>
     </message>
     <message>
@@ -952,7 +952,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Копиране на текущия подпис</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
+        <source>Sign the message to prove you own this Cashera address</source>
         <translation>Подпишете съобщение като доказателство, че притежавате определен адрес</translation>
     </message>
     <message>
@@ -964,8 +964,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Провери</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
-        <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Reddcoin адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified Cashera address</source>
+        <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Cashera адрес</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>

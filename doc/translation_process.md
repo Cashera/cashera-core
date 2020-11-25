@@ -1,7 +1,7 @@
 Translations
 ============
 
-The Reddcoin Core GUI can be easily translated into other languages. Here's how we
+The Cashera Core GUI can be easily translated into other languages. Here's how we
 handle those translations.
 
 Files and Folders
@@ -70,7 +70,7 @@ Syncing with Transifex
 
 We are using https://transifex.com as a frontend for translating the client.
 
-https://www.transifex.com/reddcoin/reddcoin
+https://www.transifex.com/Cashera/Cashera
 
 The "Transifex client" (see: http://support.transifex.com/customer/portal/topics/440187-transifex-client/articles)
 is used to fetch new translations from Transifex. The configuration for this client (`.tx/config`)

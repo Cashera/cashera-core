@@ -103,7 +103,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
 #if QT_VERSION >= 0x040700
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a Reddcoin address (e.g. %1)").arg("RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX"));
+    widget->setPlaceholderText(QObject::tr("Enter a Cashera address (e.g. %1)").arg("RdXd6m9nZ6GsUA6ZXLJjiyuKeS3vvsS7NX"));
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -121,7 +121,7 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
     // return if URI is not valid or is no bitcoin: URI
-    if(!uri.isValid() || uri.scheme() != QString("reddcoin"))
+    if(!uri.isValid() || uri.scheme() != QString("Cashera"))
         return false;
 
     SendCoinsRecipient rv;
@@ -185,9 +185,9 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
     //
     //    Cannot handle this later, because bitcoin:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("reddcoin://", Qt::CaseInsensitive))
+    if(uri.startsWith("Cashera://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 10, "reddcoin:");
+        uri.replace(0, 10, "Cashera:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -195,7 +195,7 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 
 QString formatBitcoinURI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("reddcoin:%1").arg(info.address);
+    QString ret = QString("Cashera:%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)
@@ -548,7 +548,7 @@ TableViewLastColumnResizingFixer::TableViewLastColumnResizingFixer(QTableView* t
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "Reddcoin.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "Cashera.lnk";
 }
 
 bool GetStartOnSystemStartup()
@@ -630,7 +630,7 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "reddcoin.desktop";
+    return GetAutostartDir() / "Cashera.desktop";
 }
 
 bool GetStartOnSystemStartup()
@@ -671,7 +671,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // Write a bitcoin.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=Reddcoin\n";
+        optionFile << "Name=Cashera\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

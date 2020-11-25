@@ -47,10 +47,10 @@ static bool AppInitRawTx(int argc, char* argv[])
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("-help"))
     {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Reddcoin Core reddcoin-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Cashera Core Cashera-tx utility version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
-              "  reddcoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded reddcoin transaction") + "\n" +
-              "  reddcoin-tx [options] -create [commands]   " + _("Create hex-encoded reddcoin transaction") + "\n" +
+              "  Cashera-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded Cashera transaction") + "\n" +
+              "  Cashera-tx [options] -create [commands]   " + _("Create hex-encoded Cashera transaction") + "\n" +
               "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());

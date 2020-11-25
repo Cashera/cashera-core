@@ -1,27 +1,27 @@
-Reddcoin Core version 2.0.0 is now available from:
+Cashera Core version 2.0.0 is now available from:
 
-  https://wallet.reddcoin.com/
+  https://wallet.Cashera.com/
 
 This is a new major version release, bringing both new features and
 bug fixes.
 
 Please report bugs using the issue tracker at github:
 
-  https://github.com/reddcoin-project/reddcoin/issues
+  https://github.com/Cashera-project/Cashera/issues
 
 How to Upgrade
 --------------
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), uninstall all
-earlier versions of Reddcoin, then run the installer (on Windows) or just copy
-over /Applications/Reddcoin-Qt (on Mac) or reddcoind/reddcoin-qt (on Linux).
+earlier versions of Cashera, then run the installer (on Windows) or just copy
+over /Applications/Cashera-Qt (on Mac) or Casherad/Cashera-qt (on Linux).
 
 If you are upgrading from version 1.4.1 or earlier, the first time you run
 2.0.0 your blockchain files may be re-indexed, which will take anywhere from 
 30 minutes to several hours, depending on the speed of your machine.
 
-On Windows, do not forget to uninstall all earlier versions of the Reddcoin
+On Windows, do not forget to uninstall all earlier versions of the Cashera
 client first, especially if you are switching to the 64-bit version.
 
 Windows 64-bit installer
@@ -59,11 +59,11 @@ Also, the first time you run a 1.4.x release on a 2.0.0 wallet it will rescan
 the blockchain for missing spent coins, which will take a long time (tens
 of minutes on a typical machine).
 
-Rebranding to Reddcoin Core
+Rebranding to Cashera Core
 ---------------------------
 
-To reduce confusion between Reddcoin-the-network and Reddcoin-the-software we
-have renamed the reference client to Reddcoin Core.
+To reduce confusion between Cashera-the-network and Cashera-the-software we
+have renamed the reference client to Cashera Core.
 
 
 OP_RETURN and data in the block chain
@@ -77,20 +77,20 @@ Autotools build system
 For 2.0.0 we switched to an autotools-based build system instead of individual
 (q)makefiles.
 
-Using the standard "./autogen.sh; ./configure; make" to build Reddcoin-Qt and
-reddcoind makes it easier for experienced open source developers to contribute 
+Using the standard "./autogen.sh; ./configure; make" to build Cashera-Qt and
+Casherad makes it easier for experienced open source developers to contribute 
 to the project.
 
 Be sure to check doc/build-*.md for your platform before building from source.
 
-Reddcoin-cli
+Cashera-cli
 -------------
 
-Another change in the 2.0 release is moving away from the reddcoind executable
+Another change in the 2.0 release is moving away from the Casherad executable
 functioning both as a server and as a RPC client. The RPC client functionality
-("tell the running reddcoin daemon to do THIS") was split into a separate
-executable, 'reddcoin-cli'. The RPC client code will eventually be removed from
-reddcoind, but will be kept for backwards compatibility for a release or two.
+("tell the running Cashera daemon to do THIS") was split into a separate
+executable, 'Cashera-cli'. The RPC client code will eventually be removed from
+Casherad, but will be kept for backwards compatibility for a release or two.
 
 `walletpassphrase` RPC
 -----------------------
@@ -189,13 +189,13 @@ Command-line options:
 - New option: -nospendzeroconfchange to never spend unconfirmed change outputs
 - New option: -zapwallettxes to rebuild the wallet's transaction information
 - Rename option '-tor' to '-onion' to better reflect what it does
-- Add '-disablewallet' mode to let reddcoind run entirely without wallet (when
+- Add '-disablewallet' mode to let Casherad run entirely without wallet (when
   built with wallet)
 - Update default '-rpcsslciphers' to include TLSv1.2
 - make '-logtimestamps' default on and rework help-message
 - RPC client option: '-rpcwait', to wait for server start
 - Remove '-logtodebugger'
-- Allow `-noserver` with reddcoind
+- Allow `-noserver` with Casherad
 
 Block-chain handling and storage:
 
@@ -287,18 +287,18 @@ GUI:
 - Add Coin Control Features
 - Improve receive coins workflow: make the 'Request' tab into a form to request
   payments, and move historical address list functionality to File menu.
-- Rebrand to `Reddcoin Core`
+- Rebrand to `Cashera Core`
 - Move initialization/shutdown to a thread. This prevents "Not responding"
   messages during startup. Also show a window during shutdown.
 - Don't regenerate autostart link on every client startup
-- Show and store message of normal reddcoin:URI
+- Show and store message of normal Cashera:URI
 - Fix richtext detection hang issue on very old Qt versions
 - OS X: Make use of the 10.8+ user notification center to display Growl-like 
   notifications
 - OS X: Added NSHighResolutionCapable flag to Info.plist for better font
   rendering on Retina displays.
-- OS X: Fix reddcoin-qt startup crash when clicking dock icon
-- Linux: Fix Gnome reddcoin: URI handler
+- OS X: Fix Cashera-qt startup crash when clicking dock icon
+- Linux: Fix Gnome Cashera: URI handler
 
 Miscellaneous:
 
@@ -306,7 +306,7 @@ Miscellaneous:
 - Add '-regtest' mode, similar to testnet but private with instant block
   generation with 'setgenerate' RPC.
 - Add 'linearize.py' script to contrib, for creating bootstrap.dat
-- Add separate reddcoin-cli client
+- Add separate Cashera-cli client
 
 Credits
 --------
@@ -323,7 +323,7 @@ Thanks to everyone who contributed to testing and feedback for this release, not
 - @rdyoung
 
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/reddcoin/reddcoin/).
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/Cashera/Cashera/).
 - @Serkan34
 - @Syar
 - @ricklopez

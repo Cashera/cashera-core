@@ -1,11 +1,11 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2013 The Bitcoin developers
-// Copyright (c) 2014 The ReddCoin developers
+// Copyright (c) 2014 The Cashera developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef REDDCOIN_MINER_H
-#define REDDCOIN_MINER_H
+#ifndef Cashera_MINER_H
+#define Cashera_MINER_H
 
 #include <stdint.h>
 
@@ -19,7 +19,7 @@ class CWallet;
 struct CBlockTemplate;
 
 /** Run the miner threads */
-void GenerateReddcoins(bool fGenerate, CWallet* pwallet, int nThreads);
+void GenerateCasheras(bool fGenerate, CWallet* pwallet, int nThreads);
 /** Generate a new block, without valid proof-of-work */
 CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn);
 CBlockTemplate* CreateNewBlockWithKey(CReserveKey& reservekey);
@@ -34,4 +34,4 @@ void UpdateTime(CBlockHeader* block, const CBlockIndex* pindexPrev);
 extern double dHashesPerSec;
 extern int64_t nHPSTimerStart;
 
-#endif // REDDCOIN_MINER_H
+#endif // Cashera_MINER_H

@@ -72,11 +72,11 @@ MIT/X11 라이센스 하에 배포되었습니다. 동봉된 COPYING 파일 혹�
         <translation>받을 주소들</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Cashera addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>이 주소들이 레드코인을 보낼 주소입니다. 항상 송금할 금액과 주소를 다시 확인하고 보내십시오.</translation>
     </message>
     <message>
-        <source>These are your Reddcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Cashera addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>이 주소들을 통해 레드코인을 받습니다. 되도록이면 새로운 거래마다 각각 새로운 주소를 사용하십시오.</translation>
     </message>
     <message>
@@ -170,7 +170,7 @@ MIT/X11 라이센스 하에 배포되었습니다. 동봉된 COPYING 파일 혹�
         <translation>지갑의 암호화 진행을 확정하기</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR REDDCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CasheraS&lt;/b&gt;!</source>
         <translation>경고: 지갑을 암호화한 후, 암호문구를 잊어버릴 경우 &lt;b&gt;모든 레드코인이 없어집니다&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -186,7 +186,7 @@ MIT/X11 라이센스 하에 배포되었습니다. 동봉된 COPYING 파일 혹�
         <translation>경고: Caps Lock키가 켜져있습니다!</translation>
     </message>
     <message>
-        <source>Reddcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your reddcoins from being stolen by malware infecting your computer.</source>
+        <source>Cashera will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Casheras from being stolen by malware infecting your computer.</source>
         <translation>이제 레드코인 지갑이 암호화를 마치기 위해 종료됩니다. 암호화 작업이 당신의 컴퓨터에 있는 malware에 의해 레드코인이 도난 당하는 것을 완전히 막지는 못한다는 것을 기억하십시오.</translation>
     </message>
     <message>
@@ -205,7 +205,7 @@ MIT/X11 라이센스 하에 배포되었습니다. 동봉된 COPYING 파일 혹�
         <translation>노드</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and reddcoin: URIs)</source>
+        <source>Request payments (generates QR codes and Cashera: URIs)</source>
         <translation>지불을 요청하기 (레드코인 주소와 QR 코드를 생성함)</translation>
     </message>
     <message>
@@ -217,7 +217,7 @@ MIT/X11 라이센스 하에 배포되었습니다. 동봉된 COPYING 파일 혹�
         <translation>프로그램 종료</translation>
     </message>
     <message>
-        <source>Show information about Reddcoin</source>
+        <source>Show information about Cashera</source>
         <translation>레드코인에 대한 정보 보기</translation>
     </message>
     <message>
@@ -269,7 +269,7 @@ MIT/X11 라이센스 하에 배포되었습니다. 동봉된 COPYING 파일 혹�
         <translation>&amp;URI 열기...</translation>
     </message>
     <message>
-        <source>Open a reddcoin: URI or payment request</source>
+        <source>Open a Cashera: URI or payment request</source>
         <translation>레드코인 URI나 지불요청을 열기</translation>
     </message>
     <message>
@@ -305,11 +305,11 @@ MIT/X11 라이센스 하에 배포되었습니다. 동봉된 COPYING 파일 혹�
         <translation>할당량 없음</translation>
     </message>
     <message>
-        <source>Send coins to a Reddcoin address</source>
+        <source>Send coins to a Cashera address</source>
         <translation>레드코인 주소로 코인을 보냄</translation>
     </message>
     <message>
-        <source>Modify configuration options for Reddcoin</source>
+        <source>Modify configuration options for Cashera</source>
         <translation>레드코인을 위한 환경설정 변경</translation>
     </message>
     <message>
@@ -329,7 +329,7 @@ MIT/X11 라이센스 하에 배포되었습니다. 동봉된 COPYING 파일 혹�
         <translation>&amp;메시지 확인...</translation>
     </message>
     <message>
-        <source>Reddcoin</source>
+        <source>Cashera</source>
         <translation>레드코인</translation>
     </message>
     <message>
@@ -349,15 +349,15 @@ MIT/X11 라이센스 하에 배포되었습니다. 동봉된 COPYING 파일 혹�
         <translation>자갑에 소속된 프라이빗키를 암호화하기</translation>
     </message>
     <message>
-        <source>Sign messages with your Reddcoin addresses to prove you own them</source>
+        <source>Sign messages with your Cashera addresses to prove you own them</source>
         <translation>레드코인 주소를  소유한다는 것을 보여주기 위해 주소와 함께 서명하거나 메시지 남기기.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Reddcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Cashera addresses</source>
         <translation>해당 레드코인 주소에 의해 서명되었다는 것을 확인하기 위해 메시지 검증하기.</translation>
     </message>
     <message>
-        <source>Reddcoin Core</source>
+        <source>Cashera Core</source>
         <translation>레드코인 코어</translation>
     </message>
     <message>
@@ -425,7 +425,7 @@ Address: %4
         <translation>지갑이 암호화 되었고 현재 잠금해제 되었습니다</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Reddcoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Cashera can no longer continue safely and will quit.</source>
         <translation>치명적 오류 발생. 레드코인은 더 이상 안전하게 수행될 수 없기 때문에 종료합니다.</translation>
     </message>
 </context>
@@ -666,7 +666,7 @@ Address: %4
         <translation>이 주소 목록 명부에 관련된 라벨. 오직 보내는 주소용으로 변경될 수 있음.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Reddcoin address.</source>
+        <source>The entered address "%1" is not a valid Cashera address.</source>
         <translation>입력된 주소 "%1"은 유효한 레드코인 주소가 아닙니다.</translation>
     </message>
     <message>
@@ -700,7 +700,7 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Reddcoin Core</source>
+        <source>Cashera Core</source>
         <translation>레드코인 코어</translation>
     </message>
     <message>
@@ -751,7 +751,7 @@ Address: %4
         <translation>사용자가 선택한 데이터 디렉토리를 사용</translation>
     </message>
     <message>
-        <source>Reddcoin Core</source>
+        <source>Cashera Core</source>
         <translation>레드코인 코어</translation>
     </message>
     <message>
@@ -813,11 +813,11 @@ Address: %4
         <translation>거래에 따른 &amp;수수료를 지불</translation>
     </message>
     <message>
-        <source>Automatically start Reddcoin after logging in to the system.</source>
+        <source>Automatically start Cashera after logging in to the system.</source>
         <translation>시스템에 로그인 한 후 자동으로 레드코인을 실행</translation>
     </message>
     <message>
-        <source>&amp;Start Reddcoin on system login</source>
+        <source>&amp;Start Cashera on system login</source>
         <translation>시스템 로그인 시 레드코인을 시작</translation>
     </message>
     <message>
@@ -833,7 +833,7 @@ Address: %4
         <translation>문자 검증 스레드의 갯수</translation>
     </message>
     <message>
-        <source>Connect to the Reddcoin network through a SOCKS proxy.</source>
+        <source>Connect to the Cashera network through a SOCKS proxy.</source>
         <translation>SOCKS 프록시를 통해 레드코인 네트웍에 접속함</translation>
     </message>
     <message>
@@ -869,7 +869,7 @@ Address: %4
         <translation>확인되지 않은 거스름돈 사용을 비활성화하면,  그 거스름돈은 거래 확인이 최소 한번 이루어지기 전까지 사용될 수 없습니다. 이것은 총 잔액 계산에 영향을 미칩니다.</translation>
     </message>
     <message>
-        <source>Automatically open the Reddcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Cashera client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>라우터에서 레드코인 포트를 자동으로 열기. 라우터가 UPnP를 지원할 경우에만 사용 가능합니다.</translation>
     </message>
     <message>
@@ -925,7 +925,7 @@ Address: %4
         <translation>유저 인터페이스 &amp;언어:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Reddcoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Cashera.</source>
         <translation>유저 인터페이스 언어들 여기서 설정할 수 있습니다. 종료 후 다시 시작해야 적용됩니다.</translation>
     </message>
     <message>
@@ -937,7 +937,7 @@ Address: %4
         <translation>코인을 보낼 시에 인터페이스에서 보여질 기본 세분화 단위를 선택하세요.</translation>
     </message>
     <message>
-        <source>Whether to show Reddcoin addresses in the transaction list or not.</source>
+        <source>Whether to show Cashera addresses in the transaction list or not.</source>
         <translation>거래 목록에서 레드코인 주소를 보일지 여부를 선택</translation>
     </message>
     <message>
@@ -988,7 +988,7 @@ Address: %4
 <context>
     <name>OverviewPage</name>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Reddcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Cashera network after a connection is established, but this process has not completed yet.</source>
         <translation>표시된 정보가 지난 정보일 수 있습니다. 당신의 지갑은 레드코인 네트웍과 동기화된 이후에 제대로 표시되지만. 현재 이 과정이 완료되지 않았습니다.</translation>
     </message>
     <message>
@@ -1035,7 +1035,7 @@ Address: %4
         <translation>URI 다루기</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Reddcoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Cashera address or malformed URI parameters.</source>
         <translation>URI가 해석되지 않습니다! 잘못된 레드코인 주소이거나 잘못 생성된 URI 변수입니다.</translation>
     </message>
     <message>
@@ -1047,7 +1047,7 @@ Address: %4
         <translation>지불 요구 에러</translation>
     </message>
     <message>
-        <source>Cannot start reddcoin: click-to-pay handler</source>
+        <source>Cannot start Cashera: click-to-pay handler</source>
         <translation>레드코인을 시작할 수 없습니다: 클릭-지불 핸들러를 열 수 없습니다.</translation>
     </message>
     <message>
@@ -1102,7 +1102,7 @@ Address: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Reddcoin Core</source>
+        <source>Cashera Core</source>
         <translation>레드코인 코어</translation>
     </message>
     <message>
@@ -1192,11 +1192,11 @@ Address: %4
         <translation>로그 파일 디버그</translation>
     </message>
     <message>
-        <source>Open the Reddcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Cashera debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>현제 데이터 디렉토리로부터 레드코인 디버그 로그파일을 열기. 로그 파일이 큰 경우 오랜 시간이 걸릴 수 있습니다.</translation>
     </message>
     <message>
-        <source>Welcome to the Reddcoin RPC console.</source>
+        <source>Welcome to the Cashera RPC console.</source>
         <translation>레드코인 RPC 콘솔에 오신 것을 환영합니다.</translation>
     </message>
     <message>
@@ -1259,7 +1259,7 @@ Address: %4
         <translation>이미 존재하는 받기 주소를 다시 사용하기 (권장하지 않음)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Reddcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Cashera network.</source>
         <translation>지불이 요청이 열리면 표시될 첨부된 옵션 메시지. 참고: 이 메시지는 레드코인 네트웍에 보내지지 않습니다.</translation>
     </message>
     <message>
@@ -1583,7 +1583,7 @@ Address: %4
         <translation>메시지</translation>
     </message>
     <message>
-        <source>A message that was attached to the reddcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Reddcoin network.</source>
+        <source>A message that was attached to the Cashera: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Cashera network.</source>
         <translation>거래와 함께 저장되고 레드코인 URI에 첨부될 참조용 메시지 메시지. 참고: 이 메시지는 레드코인 네트워크로 보내지지 않습니다.</translation>
     </message>
     <message>
@@ -1645,7 +1645,7 @@ Address: %4
         <translation>서명을 시스템의 클립보드로 복사함</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Reddcoin address</source>
+        <source>Sign the message to prove you own this Cashera address</source>
         <translation>당신이 이 레드코인 주소를 소유함을 증명하기 위해 서명하세요.</translation>
     </message>
     <message>
@@ -1669,7 +1669,7 @@ Address: %4
         <translation>메시지를 검증하기 위해 서명 주소 그리고 메시지(줄바꿈, 빈칸, 탭 등을 정확히 복사), 서명을 아래에 입력하세요. Man-in-the-middle 공격으로 부터 안전하기 위해 절대로 서명된 메시지 자체에 있는 것보다 더 읽지 않도록 주의하십시오.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Reddcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Cashera address</source>
         <translation>메시지가 해당 주소로 서명된 것을 확신하기 위해 검증하세요.</translation>
     </message>
     <message>
@@ -1736,7 +1736,7 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Reddcoin Core</source>
+        <source>Cashera Core</source>
         <translation>레드코인 코어</translation>
     </message>
     </context>
@@ -2062,24 +2062,24 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=reddcoinrpc
+rpcuser=Casherarpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Reddcoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Cashera Alert" admin@foo.com
 </source>
         <translation>%s, 설정파일에 rpcpassword를 설정해야 합니다:
 %s
 다음의 랜덤 암호를 설정하길 권장드립니다.
-rpcuser=reddcoinrpc
+rpcuser=Casherarpc
 rpcpassword=%s
 (이 암호를 기억할 필요 없음)
 사용자이름과 암호는 같을 수 없습니다.
 파일이 없으면, 소유자가 읽을 수만 있는 권한으로 하나 만드십시오.
 문제가 있을 경우 통보 받을 수 있도록 alertnotify를 설정하기길 권합니다.
-예: alertnotify=echo %%s | mail -s "Reddcoin Alert" admin@foo.com
+예: alertnotify=echo %%s | mail -s "Cashera Alert" admin@foo.com
 </translation>
     </message>
     <message>
@@ -2124,7 +2124,7 @@ rpcpassword=%s
         <translation>경고: -paytxfee가 너무 높게 설정되었습니다! 이것은 실재로 당신이 거래를 할때 지출해야 하는 수수료 액수입니다.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Reddcoin will not work properly.</source>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Cashera will not work properly.</source>
         <translation>경고: 컴퓨터의 날짜와 시간이 정확한지 확인하십시오. 시간이 잘 못 설정되었을 경우 레드코인이 정상 동작하지 않습니다.</translation>
     </message>
     <message>
@@ -2312,12 +2312,12 @@ rpcpassword=%s
         <translation>RPC 호출을 서비스하기 위한 쓰레드 갯수 설정 (기본: 4)</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: reddcoin.conf)</source>
-        <translation>설정 파일을 지정 (기본: reddcoin.conf)</translation>
+        <source>Specify configuration file (default: Cashera.conf)</source>
+        <translation>설정 파일을 지정 (기본: Cashera.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: reddcoind.pid)</source>
-        <translation>pid 파일을 지정 (기본: reddcoind.pid)</translation>
+        <source>Specify pid file (default: Casherad.pid)</source>
+        <translation>pid 파일을 지정 (기본: Casherad.pid)</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
@@ -2444,8 +2444,8 @@ rpcpassword=%s
         <translation>너무 큰 거래 금액</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use reddcoin-cli):</source>
-        <translation>용도 (더 이상 사용되지 않고 사라질 예정, reddcoin-cli를 사용하세요):</translation>
+        <source>Usage (deprecated, use Cashera-cli):</source>
+        <translation>용도 (더 이상 사용되지 않고 사라질 예정, Cashera-cli를 사용하세요):</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 0)</source>
@@ -2524,11 +2524,11 @@ rpcpassword=%s
         <translation>wallet.dat 로딩 에러: 지갑이 손상됨</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Reddcoin</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Cashera</source>
         <translation>wallet.dat 로딩 에러: 지갑이 새로운 레드코인 버젼을 필요로 합니다.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Reddcoin to complete</source>
+        <source>Wallet needed to be rewritten: restart Cashera to complete</source>
         <translation>지갑이 다시 쓰여져야 합니다: 레드코인을 재시작하여 완료하십시오.</translation>
     </message>
     <message>
